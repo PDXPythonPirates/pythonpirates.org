@@ -1,5 +1,5 @@
 #baseurl = "https://www.pdxpythonpirates.org"
-baseurl = ""
+baseurl = "/"
 title = "Portland Python Pirates"
 #author = "@i_mattman"
 copyright = "Copyright © 2008–2018"
