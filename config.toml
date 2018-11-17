@@ -1,0 +1,28 @@
+#baseurl = "https://www.pdxpythonpirates.org"
+baseurl = ""
+title = "Portland Python Pirates"
+#author = "@i_mattman"
+copyright = "Copyright © 2008–2018"
+canonifyurls = true
+paginate = 10
+
+
+theme = "jeffprod"
+
+[params]
+    meetup_url = "https://www.meetup.com/Portland-Python-Pirates/"
+    slack_group = "pythonpirates"
+    slack_url = "https://pythonpirates.slack.com"
+    github_url = "https://github.com/PDXPythonPirates"
+
+    course_title = "Computing in Python I: Fundamentals and Procedural Programming"
+    course_url = "https://www.edx.org/course/computing-in-python-i-fundamentals-and-procedural-programming-0"
+
+    header_image = "laptop-python-books.jpg"
+    include_toc = false
+
+
+[taxonomies]
+    tag = "tags"
+    archive = "archives"
+

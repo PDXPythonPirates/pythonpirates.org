@@ -1,0 +1,3 @@
+[submodule "themes/jeffprod"]
+	path = themes/jeffprod
+	url = https://github.com/Tazeg/hugo-blog-jeffprod.git
