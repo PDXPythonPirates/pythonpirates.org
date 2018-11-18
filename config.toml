@@ -1,5 +1,8 @@
-#baseurl = "https://www.pdxpythonpirates.org"
-baseurl = "/"
+# To launch locally and override base URL:
+#
+#   hugo server server -D -b http://localhost:1313/
+#
+baseurl = "https://www.pdxpythonpirates.org"
 title = "Portland Python Pirates"
 #author = "@i_mattman"
 copyright = "Copyright © 2008–2018"
@@ -10,13 +13,13 @@ paginate = 10
 theme = "jeffprod"
 
 [params]
+    course_title = "Computing in Python I: Fundamentals and Procedural Programming"
+    course_url = "https://www.edx.org/course/computing-in-python-i-fundamentals-and-procedural-programming-0"
+
     meetup_url = "https://www.meetup.com/Portland-Python-Pirates/"
     slack_group = "pythonpirates"
     slack_url = "https://pythonpirates.slack.com"
     github_url = "https://github.com/PDXPythonPirates"
-
-    course_title = "Computing in Python I: Fundamentals and Procedural Programming"
-    course_url = "https://www.edx.org/course/computing-in-python-i-fundamentals-and-procedural-programming-0"
 
     header_image = "laptop-python-books.jpg"
     include_toc = false

@@ -2,7 +2,9 @@
 title: "Resources"
 date: "2018-11-17"
 menu: "main"
-tags: ["websites", "books", "pythontutor"]
+tags: ["websites", "books", "pythontutor", "podcasts"]
+pinned: true
+weight: 20
 ---
 
 # Useful Resources
@@ -31,6 +33,11 @@ We are currently studying course material from {{< courselink >}}.
   * [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) a comprehensive introduction to creating Flask projects
   * [PythonAnywhere](https://www.pythonanywhere.com/) - Run python programs in a cloud instance
   * [Python Module of the Week](https://pymotw.com/3/) - series of articles to demonstrate how to use the modules of the Python 3 standard library
+
+## Podcasts
+  * [Talk Python To Me](https://talkpython.fm/) "broadcast" locally from Portland!
+  * [Python Bytes](https://pythonbytes.fm/) A weekly review of Python headlines  (also local!)
+  * [Test and Code](https://testandcode.com/) A Python podcast with a focus on testing (yups, also local!)
 
 ## Code Challenge sites
   * [CodingBat](https://codingbat.com/python)

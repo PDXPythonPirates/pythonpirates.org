@@ -1,0 +1,9 @@
+<div class="card">
+    <div class="card-content">
+        <h1 class="title is-5">Pinned Posts</h1>
+        {{ range first 5 (where .Site.RegularPages "Params.pinned" true).ByWeight }}
+            <h1><a href="{{ .Permalink | absURL }}">{{ .Title }}</a></h1>
+        {{ end }}
+    </div>
+</div>
+    
