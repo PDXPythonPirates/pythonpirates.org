@@ -8,11 +8,13 @@ weight: 20
 ---
 
 # Useful Resources
-We are currently studying course material from {{< courselink >}}.
 
-[Python Tutor](http://www.pythontutor.com/) is a fantistic site for visualizing code execution.
+## Course
+  * We are currently studying the material from {{< courselink >}}.
+  * [PDF version](http://www.davidjoyner.net/b/wp-content/uploads/2017/03/Joyner_IntroductiontoComputing_1stEdition.pdf) of the book for the course
 
 ## References
+  * [Python Tutor](http://www.pythontutor.com/) - a fantastic site for visualizing code execution and simple collaborations
   * [Python 3 Documentation](https://docs.python.org/3/)
   * [Python 3 Standard Library](https://docs.python.org/3/library/index.html) _keep this under your pillow_
   * [Python String Formatting](https://pyformat.info/) - a thorough resource on string formatting
