@@ -21,7 +21,7 @@ theme = "jeffprod"
     slack_url = "https://pythonpirates.slack.com"
     github_url = "https://github.com/PDXPythonPirates"
 
-    header_image = "laptop-python-books.jpg"
+    header_image = "/img/laptop-python-books.jpg"
     include_toc = false
 
 
