@@ -1,8 +1,8 @@
 ---
 title: "Portland Python Pirates"
 date: "2018-11-17"
+header_image: "/img/laptop-python-books.jpg"
 menu: "main"
-header_image: "laptop-python-books.jpg"
 include_toc: false
 ---
 

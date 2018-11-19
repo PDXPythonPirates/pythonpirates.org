@@ -17,10 +17,10 @@
     <!-- nav -->
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
+            <a class="navbar-item" href="{{ .Site.BaseURL | absURL }}">
+                <img src="{{ "img/jolly-roger.png" | absURL }}">
+            </a>
             <a class="navbar-item" href="{{ .Site.BaseURL | absURL }}">Home</a>
-            <!-- <a class="navbar-item" href="{{ .Site.BaseURL | absURL }}">
-            <img src="{{ "img/logo-flag.jpg" | absURL }}" width="120" height="120">
-            </a> -->
         
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
@@ -44,7 +44,8 @@
 
     <!-- hero -->
     <section class="hero is-info is-medium">
-        <div class="hero-body" style="background-image: url({{ "/img/bg-blog.jpg" | absURL }});">
+        {{ $bgimg := .Page.Params.header_image | default .Site.Params.header_image }}
+        <div class="hero-body" style="background-image: url({{ $bgimg | absURL }});">
             <div class="container has-text-centered">
                 <br>
                 <h1 class="title is-size-1">

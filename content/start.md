@@ -1,6 +1,7 @@
 ---
 title: "Getting Started"
 date: "2018-11-17"
+# header_image: "/img/pdx-pioneersquare-shapes.png"
 menu: "main"
 tags: ["onboarding"]
 pinned: true
