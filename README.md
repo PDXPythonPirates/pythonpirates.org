@@ -7,9 +7,13 @@ The content is written in [Markdown][markdown] and rendered to static HTML using
 ## How to Contribute: Overview
 
   1. [Fork][github_fork] this [repo][website_repo] to your GitHub account.
-  1. [Clone][github_clone] to your local system and make content changes.
+  1. [Clone][github_clone] to your local system and make content changes (see note on `git submodules` below)
   1. Run a local copy of [Hugo][hugo_site] to verify your changes.
   1. Commit changes to your fork and open a [pull request][github_pr].
+
+> Please note this repository make use of [git submodules][git_submodules] which requires an extra flag `--recurse-submodules` to fetch when cloning.
+
+    git clone --recurse-submodules git@github.com:GITHUB_USER/pdxpythonpirates.org.git
 
 
 ## Verify Changes Locally
@@ -69,6 +73,7 @@ When you are ready to publish the page, update the value `draft: false`, or dele
 
 [pdxpirates]: https://www.pdxpythonpirates.org
 [markdown]: https://guides.github.com/features/mastering-markdown/
+[git_submodules]: https://blog.github.com/2016-02-01-working-with-submodules/#joining-a-project-using-submodules
 [hugo_site]: https://gohugo.io/
 [hugo_install]: https://gohugo.io/getting-started/installing/
 [hugo_install_verify]: https://gohugo.io/getting-started/installing/#verify-the-executable
