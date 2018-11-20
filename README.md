@@ -1,6 +1,6 @@
 # Portand Python Pirates Website
 
-This the home for the content files used to create the [PDX Python Pirates][pdxpirates] website.
+This is the home for the content files used to create the [PDX Python Pirates][pdxpirates] website.
 
 The content is written in [Markdown][markdown] and rendered to static HTML using [Hugo][hugo_site], a static site generation tool.
 
