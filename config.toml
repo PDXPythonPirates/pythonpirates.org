@@ -9,7 +9,6 @@ copyright = "Copyright © 2008–2018"
 canonifyurls = true
 paginate = 10
 
-
 theme = "jeffprod"
 
 [params]

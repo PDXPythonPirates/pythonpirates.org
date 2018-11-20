@@ -1,5 +1,5 @@
 ---
-title: "Resources"
+title: "Useful Resources"
 date: "2018-11-17"
 header_image: "/img/python-bookshelf.jpg"
 menu: "main"
