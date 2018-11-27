@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 date: "2018-11-17"
-# header_image: "/img/pdx-pioneersquare-shapes.png"
+header_image: "/img/Clouds-Landscape-Travel-Road-Sky-Desert-Highway-2340326.jpg"
 menu: "main"
 tags: ["onboarding"]
 pinned: true
@@ -19,3 +19,5 @@ There are a few steps you will need to take in order to participate with the gro
   4. **Optional:** Sign up for an account on [GitHub](https://www.github.com).
 
 
+
+_Image by [Max Pixel](https://www.maxpixel.net/Clouds-Landscape-Travel-Road-Sky-Desert-Highway-2340326)_
