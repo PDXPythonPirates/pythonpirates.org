@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 date: "2018-11-17"
-header_image: "/img/Clouds-Landscape-Travel-Road-Sky-Desert-Highway-2340326.jpg"
+header_image: "/img/Portland_Night_panorama.jpg"
 menu: "main"
 tags: ["onboarding"]
 pinned: true
@@ -20,4 +20,4 @@ There are a few steps you will need to take in order to participate with the gro
 
 
 
-_Image by [Max Pixel](https://www.maxpixel.net/Clouds-Landscape-Travel-Road-Sky-Desert-Highway-2340326)_
+_Image by [Fcb981](https://commons.wikimedia.org/w/index.php?curid=2347176)_
