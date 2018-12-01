@@ -14,4 +14,4 @@ We use free online courses and meet once a week to discuss problem sets and answ
 
 We are currently studying course material from {{< courselink >}}.
 
-You can find us on {{< meetuplink >}} and our Slack group {{< slacklink >}}.
+See the [Getting Started page]({{< ref "/start.md" >}}) for information on joining our Meetup and Slack group.

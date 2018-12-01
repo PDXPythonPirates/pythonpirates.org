@@ -1,1 +1,1 @@
-<a href="{{ .Site.Params.meetup_url }}">Meetup</a>
+<a href="{{ .Site.Params.meetup_url }}">{{ .Get 0 | default "Meetup" }}</a>

@@ -1,1 +1,1 @@
-<a href="{{ .Site.Params.slack_url }}">pythonpirates</a>
+<a href="{{ .Site.Params.slack_url }}">{{ .Get 0 | default "Slack group" }}</a>
