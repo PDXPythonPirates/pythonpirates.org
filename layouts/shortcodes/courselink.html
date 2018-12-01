@@ -1,1 +1,1 @@
-<a href="{{ .Site.Params.course_url }}">{{ .Site.Params.course_title }}</a>
+<a href="{{ .Site.Params.course_url }}">{{ .Get 0 | default .Site.Params.course_title }}</a>

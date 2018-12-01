@@ -19,6 +19,7 @@ theme = "jeffprod"
     meetup_url = "https://www.meetup.com/Portland-Python-Pirates/"
     slack_group = "pythonpirates"
     slack_url = "https://pythonpirates.slack.com"
+    slack_join_request_url = "https://join.slack.com/t/pythonpirates/shared_invite/enQtNDYyMjg5NzEyMzM2LTlhNjAxYjJiOTVkYjA2ODE3MDc0ZTQ1YmQ2YWEwODJlZTIwY2Y5YmUzYjNhNDIxMTlhYWJjZGYwNWU5MzVkYmI"
     github_url = "https://github.com/PDXPythonPirates"
 
     header_image = "/img/laptop-python-books.jpg"
