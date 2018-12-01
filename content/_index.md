@@ -1,5 +1,5 @@
 ---
-title: "Portland Python Pirates"
+title: "Home"
 date: "2018-11-17"
 header_image: "/img/laptop-python-books.jpg"
 menu: "main"
