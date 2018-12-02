@@ -4,6 +4,11 @@
     <div class="column is-9">
         <div class="tile is-child box">
             <div class="content">
+                {{ if eq .Type "post" }}
+                    {{ partial "author-info.html" . }}
+                    <hr>
+                {{ end }}
+
                 {{ .Content }}
             </div>
         </div>

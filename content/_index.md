@@ -3,10 +3,9 @@ title: "Portland Python Pirates"
 date: "2018-11-17"
 header_image: "/img/laptop-python-books.jpg"
 menu: "main"
-include_toc: false
 ---
 
-# Helping each other skill up on Python
+# Helping Each Other Skill Up with Python
 Have you tried starting an online Python course but ended up stopping halfway through? 
 
 Join us as we support each other in our quest to become better Python programmers!  

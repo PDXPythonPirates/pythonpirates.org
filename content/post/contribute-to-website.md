@@ -1,10 +1,12 @@
 ---
 title: "Contribute to this Website"
 date: 2018-11-19
-author: "@i_mattman"
+author: "Matt Phillips"
+author_twitter: "i_mattman"
+author_github: "imattman"
 header_image: "/img/keyboard-closeup.jpg"
-draft: false
-#pinned: true
+tags: ["website", "hugo"]
+# pinned: true
 ---
 
 # How to Contribute to this Website
@@ -14,7 +16,7 @@ draft: false
   1. Fork the [GitHub repo][website_repo] that houses the content for the website.  You will need an account on GitHub to do this.
   1. Make edits to your own fork, preferably on a branch other than `master`.
   1. Optionally, run a local copy of [Hugo][hugo_site] to verify the site renders as expected.
-  1. Issue a **[Pull Request][pull_request]** back to the original repo.
+  1. Open a **[Pull Request][pull_request]** against the original repo.
   1. The website will automatically publish once the PR is merged.
 
 ## Additional Details
@@ -28,7 +30,7 @@ Page content is written in [Markdown][markdown], a simplified way to format text
 
 Hugo looks for content pages under the `content` directory of the project root.  Most new page additions should be placed under `content/post`.
 
-> For an example of markdown page content see what is used to render [this very page][this_page].
+> For an example of markdown content see what is used to render [this very page][this_page].
 
 ### Run Hugo Locally
 
