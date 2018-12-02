@@ -1,0 +1,14 @@
+{{ if isset .Page.Params "author" }}
+  {{ .Page.Params.author }}
+  {{ if or (isset .Page.Params "author_twitter") (isset .Page.Params "author_github") }}
+    &middot;&nbsp;
+    {{ if isset .Page.Params "author_twitter" }}
+      <span class="icon is-small"><a href="https://twitter.com/{{ .Page.Params.author_twitter }}" class="postsocial"><i class="fab fa-twitter fa-1x"></i></a></span>&nbsp;
+    {{ end }}
+    {{ if isset .Page.Params "author_github" }}
+      <span class="icon is-small"><a href="https://github.com/{{ .Page.Params.author_github }}" class="postsocial"><i class="fab fa-github fa-1x"></i></a></span>&nbsp;
+    {{ end }}
+  {{ end }}
+&middot; 
+{{ end }}
+{{ .Date.Format "January 2, 2006" }}

@@ -3,7 +3,7 @@ title: "Useful Resources"
 date: "2018-11-17"
 header_image: "/img/python-bookshelf.jpg"
 menu: "main"
-tags: ["websites", "books", "pythontutor", "podcasts"]
+tags: ["website", "book", "pythontutor", "podcast"]
 pinned: true
 weight: 20
 ---

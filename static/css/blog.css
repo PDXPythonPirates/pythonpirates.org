@@ -10,3 +10,5 @@ html,body {
     }
 .mysocial { color: hsl(0, 0%, 100%);}
 .mysocial:hover { color: hsl(0, 0%, 71%) }
+.postsocial { color: #aaaaaa;}
+.postsocial:hover { color: #222222 }
