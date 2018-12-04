@@ -2,7 +2,6 @@
 title: "Contribute to this Website"
 date: 2018-11-19
 author: "Matt Phillips"
-author_twitter: "i_mattman"
 author_github: "imattman"
 header_image: "/img/keyboard-closeup.jpg"
 tags: ["website", "hugo"]
