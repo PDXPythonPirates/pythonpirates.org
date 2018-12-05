@@ -1,8 +1,8 @@
 ---
 title: "How to Open and Read Files"
 date: 2018-12-04
-author: "Matt Phillips"
-author_github: "imattman"
+#author: "Matt Phillips"
+#author_github: "imattman"
 header_image: "/img/keyboard-closeup.jpg"
 ---
 
