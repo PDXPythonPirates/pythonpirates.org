@@ -14,7 +14,10 @@ weight: 20
   * We are currently studying the material from {{< courselink >}}.
   * [PDF version](http://www.davidjoyner.net/b/wp-content/uploads/2017/03/Joyner_IntroductiontoComputing_1stEdition.pdf) of the book for the course
 
-## References
+# Slack
+  * [Formatting Slack Messages](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages)
+
+## Python References
   * [Python Tutor](http://www.pythontutor.com/) - a fantastic site for visualizing code execution and simple collaborations
   * [Python 3 Documentation](https://docs.python.org/3/)
   * [Python 3 Standard Library](https://docs.python.org/3/library/index.html) _keep this under your pillow_
