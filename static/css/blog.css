@@ -12,3 +12,4 @@ html,body {
 .mysocial:hover { color: hsl(0, 0%, 71%) }
 .postsocial { color: #aaaaaa;}
 .postsocial:hover { color: #222222 }
+.danger { background:rgba(200, 0, 0, 0.2);}
