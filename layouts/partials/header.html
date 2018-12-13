@@ -21,6 +21,7 @@
                 <img src="{{ "img/jolly-roger.png" | absURL }}">
             </a>
             <a class="navbar-item" href="{{ .Site.BaseURL | absURL }}">Home</a>
+            <a class="navbar-item" href="{{ "/edx" | absURL }}">edX Update</a>
         
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
@@ -46,7 +47,8 @@
     <!-- hero -->
     <section class="hero is-info is-medium">
         {{ $bgimg := .Page.Params.header_image | default .Site.Params.header_image }}
-        <div class="hero-body" style="background-image: url({{ $bgimg | absURL }});">
+        {{/* swap out $bgimg for edx urgent message */}}
+        <div class="hero-body" style="background-image: url({{ "/img/edx-urgent.jpg" }});">
             <div class="container has-text-centered">
                 <br>
                 <h1 class="title is-size-1">
