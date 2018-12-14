@@ -9,19 +9,19 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
-    <link rel="stylesheet" href="{{ "css/blog.css" | absURL }}" />
-    <script type="text/javascript" src="{{ "js/nav.js" | absURL }}"></script>
+    <link rel="stylesheet" href="{{ "css/blog.css" | relURL }}" />
+    <script type="text/javascript" src="{{ "js/nav.js" | relURL }}"></script>
 </head>
 <body>
 
     <!-- nav -->
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="{{ .Site.BaseURL | absURL }}">
-                <img src="{{ "img/jolly-roger.png" | absURL }}">
+            <a class="navbar-item" href="{{ .Site.BaseURL | relURL }}">
+                <img src="{{ "img/jolly-roger.png" | relURL }}">
             </a>
-            <a class="navbar-item" href="{{ .Site.BaseURL | absURL }}">Home</a>
-            <a class="navbar-item" href="{{ "/edx" | absURL }}">edX Update</a>
+            <a class="navbar-item" href="{{ .Site.BaseURL | relURL }}">Home</a>
+            <a class="navbar-item" href="{{ "/edx" | relURL }}">edX Update</a>
         
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
@@ -35,10 +35,10 @@
             </div>
             
             <div class="navbar-end">
-                <a class="navbar-item" href="{{ "/resources" | absURL }}">Resources</a>
-                <a class="navbar-item" href="{{ "/post" | absURL }}">Posts</a>
+                <a class="navbar-item" href="{{ "/resources" | relURL }}">Resources</a>
+                <a class="navbar-item" href="{{ "/post" | relURL }}">Posts</a>
                 <a class="navbar-item" href="{{ .Site.Params.meetup_url }}">Meetup</a>
-                <a class="navbar-item" href="{{ "/about" | absURL }}">About</a>
+                <a class="navbar-item" href="{{ "/about" | relURL }}">About</a>
             </div>
         </div>
     </nav>
@@ -51,7 +51,7 @@
             {{/* override bg image if urgent image path is set */}}
             {{ $bgimg = .Site.Params.urgent_header_image }}
         {{ end }}
-        <div class="hero-body" style="background-image: url({{ $bgimg | absURL }});">
+        <div class="hero-body" style="background-image: url({{ $bgimg | relURL }});">
             <div class="container has-text-centered">
                 <br>
                 <h1 class="title is-size-1">
