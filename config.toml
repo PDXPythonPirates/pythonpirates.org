@@ -15,9 +15,9 @@ theme = "jeffprod"
 [params]
     # this toggles display of the urgent banner text at the top of all pages
     # individual pages can disable this with the page front matter 'display_urgent: false'
-    display_urgent = true
+#    display_urgent = true
     # this overrides the header image for all pages;  comment out to disable
-    urgent_header_image = "/img/urgent-edx.jpg"
+#    urgent_header_image = "/img/urgent-edx.jpg"
 
     urgent_link = "/edx"
     urgent_link_title = "Urgent: edX Policy Change"
