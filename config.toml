@@ -1,6 +1,6 @@
-# To launch locally and override base URL:
+# To launch locally and display draft documents
 #
-#   hugo server server -D -b http://localhost:1313/
+#   hugo server -D
 #
 baseurl = "https://www.pdxpythonpirates.org"
 title = "Portland Python Pirates"
@@ -13,7 +13,12 @@ summaryLength = 40
 theme = "jeffprod"
 
 [params]
+    # this toggles display of the urgent banner text at the top of all pages
+    # individual pages can disable this with the page front matter 'display_urgent: false'
     display_urgent = true
+    # this overrides the header image for all pages;  comment out to disable
+    urgent_header_image = "/img/urgent-edx.jpg"
+
     urgent_link = "/edx"
     urgent_link_title = "Urgent: edX Policy Change"
     urgent_date = "2018-12-13"

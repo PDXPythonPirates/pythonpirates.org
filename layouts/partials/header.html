@@ -47,8 +47,11 @@
     <!-- hero -->
     <section class="hero is-info is-medium">
         {{ $bgimg := .Page.Params.header_image | default .Site.Params.header_image }}
-        {{/* swap out $bgimg for edx urgent message */}}
-        <div class="hero-body" style="background-image: url({{ "/img/urgent-edx.jpg" }});">
+        {{ if isset .Site.Params "urgent_header_image" }}
+            {{/* override bg image if urgent image path is set */}}
+            {{ $bgimg = .Site.Params.urgent_header_image }}
+        {{ end }}
+        <div class="hero-body" style="background-image: url({{ $bgimg | absURL }});">
             <div class="container has-text-centered">
                 <br>
                 <h1 class="title is-size-1">

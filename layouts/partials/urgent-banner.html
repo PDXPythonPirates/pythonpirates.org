@@ -1,5 +1,4 @@
-{{ if .Site.Params.display_urgent | default false}}
-{{ if .Page.Params.display_urgent | default true }}
+{{ if and (.Site.Params.display_urgent | default false) (.Page.Params.display_urgent | default true) }}
 <div class="columns">
     <div class="column is-12">
         <div class="tile is-child box danger">
@@ -18,5 +17,4 @@
         </div>
     </div>
 </div>
-{{ end }}
 {{ end }}
