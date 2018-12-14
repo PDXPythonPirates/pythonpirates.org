@@ -15,13 +15,25 @@ weight: 20
   * [PDF version](http://www.davidjoyner.net/b/wp-content/uploads/2017/03/Joyner_IntroductiontoComputing_1stEdition.pdf) of the book for the course
 
 # Slack
-  * [Formatting Slack Messages](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages)
+  * [Formatting Slack messages](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages)
 
 ## Python References
   * [Python Tutor](http://www.pythontutor.com/) - a fantastic site for visualizing code execution and simple collaborations
-  * [Python 3 Documentation](https://docs.python.org/3/)
-  * [Python 3 Standard Library](https://docs.python.org/3/library/index.html) _keep this under your pillow_
-  * [Python String Formatting](https://pyformat.info/) - a thorough resource on string formatting
+  * [Python 3 documentation](https://docs.python.org/3/)
+  * [Python 3 standard library](https://docs.python.org/3/library/index.html) _keep this under your pillow_
+  * [Python string formatting](https://pyformat.info/) - a thorough resource on string formatting
+
+## Git and GitHub References
+  * [Git cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet/) ([PDF](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf))
+  * [Intro to Git on Codecademy](https://www.codecademy.com/learn/learn-git)
+  * [Atlassian Git tutorials](https://www.atlassian.com/git/tutorials)
+  * [GitHub workflow documentation](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/)
+  * [O'Reilly Git Pocket Guide](http://shop.oreilly.com/product/0636920024972.do) ([Amazon](https://www.amazon.com/Git-Pocket-Guide-Working-Introduction/dp/1449325866/))
+  * [Official Git reference](https://git-scm.com/docs)
+
+## Markdown
+  * [Intro to Markdown](https://guides.github.com/features/mastering-markdown/)
+  * [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Code Editors
   * [PyCharm](https://www.jetbrains.com/pycharm/) (community edition is free)
