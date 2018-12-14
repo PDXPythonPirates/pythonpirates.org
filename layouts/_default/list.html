@@ -1,4 +1,6 @@
 {{ define "main" }}
+{{ partial "urgent-banner.html" . }}
+
 {{ $paginator := .Paginate (where .Site.RegularPages "Section" "post").ByPublishDate.Reverse }}
 
 <div class="columns">
