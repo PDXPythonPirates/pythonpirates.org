@@ -6,7 +6,7 @@
             <span class="icon is-large"><a href="{{ .Site.Params.github_url }}" class="mysocial"><i class="fab fa-github fa-3x"></i></a></span>&nbsp;&nbsp;
             <br><br>
             Copyright &copy; {{ .Site.Title }} {{ now.Format "2006"}} - Theme by <a href="https://jeffprod.com" class="mysocial">JeffProd.com</a>
-            - <a class="mysocial" href="{{ "about" | absURL }}">About</a>
+            - <a class="mysocial" href="{{ "about" | relURL }}">About</a>
         </p>
     </div>
 </footer>
