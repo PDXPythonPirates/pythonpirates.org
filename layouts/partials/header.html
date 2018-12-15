@@ -21,6 +21,9 @@
                 <img src="{{ "img/jolly-roger.png" | relURL }}">
             </a>
             <a class="navbar-item" href="{{ .Site.BaseURL | relURL }}">Home</a>
+            {{ if and (.Site.Params.display_urgent | default false) (isset .Site.Params "urgent_nav_title") }}
+            <a class="navbar-item" href="{{ .Site.Params.urgent_url}}">{{ .Site.Params.urgent_nav_title }}</a>
+            {{end}}
         
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>

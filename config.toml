@@ -19,7 +19,10 @@ theme = "jeffprod"
     # this overrides the header image for all pages;  comment out to disable
 #    urgent_header_image = "/img/urgent-edx.jpg"
 
-    urgent_link = "/edx"
+    urgent_url = "/edx"
+    # text displayed in top page nav; unset this to remove
+    urgent_nav_title = "edX Policy Change"
+    # link text displayed in banner box
     urgent_link_title = "Urgent: edX Policy Change"
     urgent_date = "2018-12-13"
 

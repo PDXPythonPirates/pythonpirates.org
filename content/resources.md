@@ -8,22 +8,20 @@ pinned: true
 weight: 20
 ---
 
-# Useful Resources
-
-## Course
+# Course
   * We are currently studying the material from {{< courselink >}}.
   * [PDF version](http://www.davidjoyner.net/b/wp-content/uploads/2017/03/Joyner_IntroductiontoComputing_1stEdition.pdf) of the book for the course
 
 # Slack
   * [Formatting Slack messages](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages)
 
-## Python References
+# Python References
   * [Python Tutor](http://www.pythontutor.com/) - a fantastic site for visualizing code execution and simple collaborations
   * [Python 3 documentation](https://docs.python.org/3/)
   * [Python 3 standard library](https://docs.python.org/3/library/index.html) _keep this under your pillow_
   * [Python string formatting](https://pyformat.info/) - a thorough resource on string formatting
 
-## Git and GitHub References
+# Git and GitHub References
   * [Git cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet/) ([PDF](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf))
   * [Intro to Git on Codecademy](https://www.codecademy.com/learn/learn-git)
   * [Atlassian Git tutorials](https://www.atlassian.com/git/tutorials)
@@ -31,33 +29,33 @@ weight: 20
   * [O'Reilly Git Pocket Guide](http://shop.oreilly.com/product/0636920024972.do) ([Amazon](https://www.amazon.com/Git-Pocket-Guide-Working-Introduction/dp/1449325866/))
   * [Official Git reference](https://git-scm.com/docs)
 
-## Markdown
+# Markdown
   * [Intro to Markdown](https://guides.github.com/features/mastering-markdown/)
   * [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-## Code Editors
+# Code Editors
   * [PyCharm](https://www.jetbrains.com/pycharm/) (community edition is free)
   * [VS Code](https://code.visualstudio.com/)
   * [Spyder](https://anaconda.org/anaconda/spyder) (comes with Anaconda)
 
-## Free Books
+# Free Books
   * [Think Python](http://greenteapress.com/wp/think-python-2e/)
   * [Automate the Boring Stuff](https://automatetheboringstuff.com/)
   * [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
   * [Python for Engineers](https://www.pythonforengineers.com/python-for-scientists-and-engineers/)
 
-## Other Notable sites
+# Other Notable sites
   * [Real Python](https://realpython.com/) - loads and loads of helpful articles, tutorials, and more
   * [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) a comprehensive introduction to creating Flask projects
   * [PythonAnywhere](https://www.pythonanywhere.com/) - Run python programs in a cloud instance
   * [Python Module of the Week](https://pymotw.com/3/) - series of articles to demonstrate how to use the modules of the Python 3 standard library
 
-## Podcasts
+# Podcasts
   * [Talk Python To Me](https://talkpython.fm/) "broadcast" locally from Portland!
   * [Python Bytes](https://pythonbytes.fm/) A weekly review of Python headlines  (also local!)
   * [Test and Code](https://testandcode.com/) A Python podcast with a focus on testing (yups, also local!)
 
-## Code Challenge sites
+# Code Challenge sites
   * [CodingBat](https://codingbat.com/python)
   * [HackerRank](https://www.hackerrank.com)
   * [RunCode](https://docs.runcode.ninja/)
