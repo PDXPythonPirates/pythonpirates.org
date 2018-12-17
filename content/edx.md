@@ -6,6 +6,8 @@ tags: ["edx"]
 pinned: true
 weight: 5
 display_urgent: false
+# marked draft to remove from site, but keep as example
+draft: true
 ---
 
 # Urgent: edX Policy Change
