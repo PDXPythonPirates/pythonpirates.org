@@ -4,9 +4,9 @@
 #
 baseurl = "https://www.pdxpythonpirates.org"
 title = "Portland Python Pirates"
-#author = "@i_mattman"
 copyright = "Copyright © 2008–2018"
-canonifyurls = true
+# uncomment to fully qualify URLs
+#canonifyurls = true
 paginate = 10
 summaryLength = 40
 
