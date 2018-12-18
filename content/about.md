@@ -2,7 +2,7 @@
 title: "About Us"
 date: "2018-11-17"
 # Mike, update this with the photo you want to use
-header_image: "/img/laptop-python-books.jpg"
+header_image: "/img/py_meetup_group.jpg"
 menu: "main"
 ---
 
