@@ -45,8 +45,8 @@ If you have further questions, please don't hesitate to ask in our Slack group.
 
 
 [hugo_site]: https://gohugo.io/
-[website_repo]: https://github.com/PDXPythonPirates/pdxpythonpirates.org
+[website_repo]: https://github.com/PDXPythonPirates/pythonpirates.org
 [markdown]: https://guides.github.com/features/mastering-markdown/
 [github_help]: https://help.github.com/
 [pull_request]: https://help.github.com/articles/about-pull-requests/
-[this_page]: https://raw.githubusercontent.com/PDXPythonPirates/pdxpythonpirates.org/master/content/post/contribute-to-website.md
+[this_page]: https://raw.githubusercontent.com/PDXPythonPirates/pythonpirates.org/master/content/post/contribute-to-website.md

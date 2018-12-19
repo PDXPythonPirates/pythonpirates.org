@@ -1,6 +1,6 @@
 # Portland Python Pirates Website
 
-This is the home for the content files used to create the [PDX Python Pirates][pdxpirates] website.
+This is the home for the content files used to create the [PDX Python Pirates][pythonpirates] website.
 
 The content is written in [Markdown][markdown] and rendered to static HTML using [Hugo][hugo_site], a static site generation tool.
 
@@ -13,7 +13,7 @@ The content is written in [Markdown][markdown] and rendered to static HTML using
 
 > Please note this repository make use of [git submodules][git_submodules] which requires an extra flag `--recurse-submodules` to fetch when cloning.
 
-    git clone --recurse-submodules git@github.com:GITHUB_USER/pdxpythonpirates.org.git
+    git clone --recurse-submodules git@github.com:GITHUB_USER/pythonpirates.org.git
 
 
 ## Verify Changes Locally
@@ -29,8 +29,8 @@ See the official Hugo docs to:
 
 Once installed, start `hugo` from a command prompt with the project root as the current directory.
 
-    # repo was cloned to directory 'pdxpythonpirates.org'
-    cd /path/to/git-projects/pdxpythonpirates.org
+    # repo was cloned to directory 'pythonpirates.org'
+    cd /path/to/git-projects/pythonpirates.org
 
     hugo server -D
 
@@ -71,15 +71,15 @@ When you are ready to publish the page, update the value `draft: false`, or dele
 > The `draft` attribute is the first thing to check if a page isn't showing up on the website that you expect.
 
 
-[pdxpirates]: https://www.pdxpythonpirates.org
+[pythonpirates]: https://www.pythonpirates.org
 [markdown]: https://guides.github.com/features/mastering-markdown/
 [git_submodules]: https://blog.github.com/2016-02-01-working-with-submodules/#joining-a-project-using-submodules
 [hugo_site]: https://gohugo.io/
 [hugo_install]: https://gohugo.io/getting-started/installing/
 [hugo_install_verify]: https://gohugo.io/getting-started/installing/#verify-the-executable
 [front_matter]: https://gohugo.io/content-management/front-matter/
-[contribute_overview]: https://www.pdxpythonpirates.org/post/contribute-to-website/
-[website_repo]: https://github.com/PDXPythonPirates/pdxpythonpirates.org
+[contribute_overview]: https://www.pythonpirates.org/post/contribute-to-website/
+[website_repo]: https://github.com/PDXPythonPirates/pythonpirates.org
 [markdown]: https://guides.github.com/features/mastering-markdown/
 [github_help]: https://help.github.com/
 [github_fork]: https://help.github.com/articles/working-with-forks/
