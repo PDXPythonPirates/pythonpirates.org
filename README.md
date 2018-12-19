@@ -1,4 +1,4 @@
-# Portand Python Pirates Website
+# Portland Python Pirates Website
 
 This is the home for the content files used to create the [PDX Python Pirates][pdxpirates] website.
 
