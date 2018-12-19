@@ -7,41 +7,41 @@ baseurl = "https://www.pdxpythonpirates.org"
 #baseurl = "https://www.pythonpirates.org"
 title = "Portland Python Pirates"
 copyright = "Copyright © 2008–2018"
+theme = "jeffprod"
 paginate = 10
 summaryLength = 40
-# uncomment to fully qualify URLs with domain name
+
+# this causes the full domain name to be prepended when using 'relURL' in templates
 #canonifyurls = true
 
-theme = "jeffprod"
 
 [params]
-    # this toggles display of the urgent banner text at the top of all pages
-    # individual pages can disable this with the page front matter 'display_urgent: false'
-#    display_urgent = true
-    # this overrides the header image for all pages;  comment out to disable
-#    urgent_header_image = "/img/urgent-edx.jpg"
-
-    urgent_url = "/edx"
-    # text displayed in top page nav; unset this to remove
-    urgent_nav_title = "edX Policy Change"
-    # link text displayed in banner box
-    urgent_link_title = "Urgent: edX Policy Change"
-    urgent_date = "2018-12-13"
-
     course_title = "Computing in Python I: Fundamentals and Procedural Programming"
     course_url = "https://www.edx.org/course/computing-in-python-i-fundamentals-and-procedural-programming-0"
 #    course_title = "Computing in Python II: Control Structures"
 #    course_url = "https://www.edx.org/course/computing-in-python-ii-control-structures-0"
 
+    header_image = "/img/laptop-python-books.jpg"
     meetup_url = "https://www.meetup.com/Portland-Python-Pirates/"
     slack_group = "pythonpirates"
     slack_url = "https://pythonpirates.slack.com"
     slack_join_request_url = "https://join.slack.com/t/pythonpirates/shared_invite/enQtNDYyMjg5NzEyMzM2LTlhNjAxYjJiOTVkYjA2ODE3MDc0ZTQ1YmQ2YWEwODJlZTIwY2Y5YmUzYjNhNDIxMTlhYWJjZGYwNWU5MzVkYmI"
     github_url = "https://github.com/PDXPythonPirates"
-
-    header_image = "/img/laptop-python-books.jpg"
     include_toc = false
 
+    # this toggles display of the urgent banner text at the top of all pages
+    # individual pages can disable this with the page front matter 'display_urgent: false'
+    #display_urgent = true
+
+    # this overrides the header image for all pages;  comment out to disable
+    #urgent_header_image = "/img/urgent-edx.jpg"
+
+    urgent_url = "/edx"
+    # text displayed in top page nav; unset this to remove
+    urgent_nav_title = "edX Policy Change"
+    # link text displayed in banner box at the top of content section
+    urgent_link_title = "Urgent: edX Policy Change"
+    urgent_date = "2018-12-13"
 
 [taxonomies]
     tag = "tags"
