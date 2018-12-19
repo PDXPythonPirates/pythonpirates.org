@@ -2,9 +2,7 @@
 #
 #   hugo server -D
 #
-baseurl = "https://www.pdxpythonpirates.org"
-# not yet
-#baseurl = "https://www.pythonpirates.org"
+baseurl = "https://www.pythonpirates.org"
 title = "Portland Python Pirates"
 copyright = "Copyright © 2008–2018"
 theme = "jeffprod"
