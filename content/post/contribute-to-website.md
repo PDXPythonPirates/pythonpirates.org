@@ -1,11 +1,8 @@
 ---
 title: "Contribute to this Website"
 date: 2018-11-19
-#author: "Matt Phillips"
-#author_github: "imattman"
 header_image: "/img/keyboard-closeup.jpg"
 tags: ["website", "hugo"]
-# pinned: true
 ---
 
 # How to Contribute to this Website
@@ -13,17 +10,17 @@ tags: ["website", "hugo"]
 ## The Nutshell Version
 
   1. Fork the [GitHub repo][website_repo] that houses the content for the website.  You will need an account on GitHub to do this.
-  1. Make edits to your own fork, preferably on a branch other than `master`.
+  1. Make edits to your own fork, preferably on a _branch other than_ `master`.
   1. Optionally, run a local copy of [Hugo][hugo_site] to verify the site renders as expected.
-  1. Open a **[Pull Request][pull_request]** against the original repo.
+  1. Open a [Pull Request][pull_request] against the original repo.
   1. The website will automatically publish once the PR is merged.
 
 ## Additional Details
 
-This website is generated using a static site generator that combines markdown content files with HTML templates to yield the final web pages.
+This website is built using a [static site generator][static_generator] that creates HTML pages by combining markdown content with HTML templates.
 
-* [Hugo][hugo_site] is the static site generator.
-* The markdown content, templates, images, and other assets are in a [repo on GitHub][website_repo].
+* [Hugo][hugo_site] is the site generator we use.
+* [A repository on GitHub][website_repo] is the home to the markdown content, templates, images, and other assets used.
 
 Page content is written in [Markdown][markdown], a simplified way to format text that is easier to use than HTML.  By convention, Markdown files end with the `.md` extension.
 
@@ -46,6 +43,7 @@ If you have further questions, please don't hesitate to ask in our Slack group.
 
 [hugo_site]: https://gohugo.io/
 [website_repo]: https://github.com/PDXPythonPirates/pythonpirates.org
+[static_generator]: https://www.staticgen.com/
 [markdown]: https://guides.github.com/features/mastering-markdown/
 [github_help]: https://help.github.com/
 [pull_request]: https://help.github.com/articles/about-pull-requests/
