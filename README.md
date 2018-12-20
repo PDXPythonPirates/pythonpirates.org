@@ -39,10 +39,11 @@ This starts up a Hugo server listening on http://localhost:1313/
 > The `-D` flag is optional and tells Hugo to include pages marked as "draft" status.
 
 Make your edits & when finished:
-- commit your changes locally... you made a branch, right? ;-)
-- push to your fork on GitHub
-- open a [pull request][github_pr]
-- notify someone in Slack to review the change and merge the pull request
+
+* commit your changes locally... you made a branch, right? ;-)
+* push to your fork on GitHub
+* open a [pull request][github_pr]<br/>_A preview of the site will be linked from the pull request ticket_
+* notify someone in Slack to review the change and merge the pull request
 
 ## A Note on Front Matter and Drafts
 
