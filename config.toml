@@ -14,10 +14,8 @@ summaryLength = 40
 
 
 [params]
-    course_title = "Computing in Python I: Fundamentals and Procedural Programming"
-    course_url = "https://www.edx.org/course/computing-in-python-i-fundamentals-and-procedural-programming-0"
-#    course_title = "Computing in Python II: Control Structures"
-#    course_url = "https://www.edx.org/course/computing-in-python-ii-control-structures-0"
+    course_title = "Computing in Python II: Control Structures"
+    course_url = "https://www.edx.org/course/computing-in-python-ii-control-structures-0"
 
     header_image = "/img/laptop-python-books.jpg"
     meetup_url = "https://www.meetup.com/Portland-Python-Pirates/"
