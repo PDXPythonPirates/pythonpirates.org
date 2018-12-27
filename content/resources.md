@@ -39,9 +39,10 @@ weight: 20
   * [Spyder](https://anaconda.org/anaconda/spyder) (comes with Anaconda)
 
 # Free Books
-  * [Think Python](http://greenteapress.com/wp/think-python-2e/)
   * [Automate the Boring Stuff](https://automatetheboringstuff.com/)
+  * [Python 101](https://python101.pythonlibrary.org/)
   * [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
+  * [Think Python](http://greenteapress.com/wp/think-python-2e/)
   * [Python for Engineers](https://www.pythonforengineers.com/python-for-scientists-and-engineers/)
 
 # Other Notable sites
