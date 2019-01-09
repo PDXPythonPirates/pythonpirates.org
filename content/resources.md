@@ -50,6 +50,7 @@ weight: 20
   * [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) a comprehensive introduction to creating Flask projects
   * [PythonAnywhere](https://www.pythonanywhere.com/) - Run python programs in a cloud instance
   * [Python Module of the Week](https://pymotw.com/3/) - series of articles to demonstrate how to use the modules of the Python 3 standard library
+  * [Python Articles](https://medium.freecodecamp.org/tagged/python ) - Python stories worth reading about programming and technology from our open source community.
 
 # Podcasts
   * [Talk Python To Me](https://talkpython.fm/) "broadcast" locally from Portland!
