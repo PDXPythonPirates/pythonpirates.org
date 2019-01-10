@@ -46,14 +46,14 @@ weight: 20
   * [Python for Engineers](https://www.pythonforengineers.com/python-for-scientists-and-engineers/)
 
 # Other Notable sites
-  * [Real Python](https://realpython.com/) - loads and loads of helpful articles, tutorials, and more
-  * [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) a comprehensive introduction to creating Flask projects
+  * [Real Python](https://realpython.com/) - Loads and loads of helpful articles, tutorials, and more
+  * [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) A comprehensive introduction to creating Flask projects
   * [PythonAnywhere](https://www.pythonanywhere.com/) - Run python programs in a cloud instance
-  * [Python Module of the Week](https://pymotw.com/3/) - series of articles to demonstrate how to use the modules of the Python 3 standard library
+  * [Python Module of the Week](https://pymotw.com/3/) - Series of articles to demonstrate how to use the modules of the Python 3 standard library
   * [Python Articles](https://medium.freecodecamp.org/tagged/python ) - Python stories worth reading about programming and technology from our open source community.
 
 # Podcasts
-  * [Talk Python To Me](https://talkpython.fm/) "broadcast" locally from Portland!
+  * [Talk Python To Me](https://talkpython.fm/) "Broadcast" locally from Portland!
   * [Python Bytes](https://pythonbytes.fm/) A weekly review of Python headlines  (also local!)
   * [Test and Code](https://testandcode.com/) A Python podcast with a focus on testing (yups, also local!)
 
