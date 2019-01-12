@@ -24,6 +24,7 @@ weight: 20
 # Git and GitHub References
   * [Git cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet/) ([PDF](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf))
   * [Intro to Git on Codecademy](https://www.codecademy.com/learn/learn-git)
+  * [Udacity Free Course: How to use Git and GitHub](https://in.udacity.com/course/how-to-use-git-and-github--ud775-india)
   * [Atlassian Git tutorials](https://www.atlassian.com/git/tutorials)
   * [GitHub workflow documentation](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/)
   * [O'Reilly Git Pocket Guide](http://shop.oreilly.com/product/0636920024972.do) ([Amazon](https://www.amazon.com/Git-Pocket-Guide-Working-Introduction/dp/1449325866/))
