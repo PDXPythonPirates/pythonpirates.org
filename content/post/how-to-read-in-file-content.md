@@ -21,7 +21,7 @@ The sample file referenced in this post is available for download to follow alon
 
 The standard steps for reading a file are:
 
-  1. Open the file using the function `open()`.  This returns a _**fileobject**_ for interaction.<br>
+  1. Open the file using the function `open()`.  This returns a _**fileobject**_ for interaction.  
     The documentation for `open` is available [here][open_docs].
   2. Read data from the fileobject using one of the methods described in the next section.
   3. Close the fileobject.  You can do this explicitly by calling the method `fileobject.close()` or handle it automatically through the use of a `with` block.
