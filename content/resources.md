@@ -2,8 +2,9 @@
 title: "Useful Resources"
 date: "2018-11-17"
 header_image: "/img/python-bookshelf.jpg"
-menu: "main"
+include_toc: true
 tags: ["website", "book", "pythontutor", "podcast"]
+menu: "main"
 pinned: true
 weight: 20
 ---
@@ -58,7 +59,7 @@ weight: 20
   * [Python Bytes](https://pythonbytes.fm/) A weekly review of Python headlines  (also local!)
   * [Test and Code](https://testandcode.com/) A Python podcast with a focus on testing (yups, also local!)
 
-# Code Challenge sites
+# Code Challenge Sites
   * [CodingBat](https://codingbat.com/python)
   * [HackerRank](https://www.hackerrank.com)
   * [RunCode](https://docs.runcode.ninja/)

@@ -8,6 +8,8 @@ author: "Your name"
 #author_github: "github-name"
 
 header_image: "/img/keyboard-closeup.jpg"
+# include Table of Contents in side nav
+include_toc: true
 draft: true
 ---
 
