@@ -4,9 +4,10 @@
 #
 baseurl = "https://www.pythonpirates.org"
 title = "Portland Python Pirates"
-copyright = "Copyright © 2008–2018"
+copyright = "Copyright © 2018–2019 Portland Python Pirates"
 theme = "jeffprod"
 googleAnalytics = "UA-131409351-1"
+enableGitInfo = true
 paginate = 10
 summaryLength = 40
 
