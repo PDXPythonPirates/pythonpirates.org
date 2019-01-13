@@ -1,3 +1,9 @@
+{{ $includeTOC := .Page.Params.include_toc | default .Site.Params.include_toc }}
+
+{{ if $includeTOC }}
+{{ partial "widget-toc.html" . }}<br>
+{{ end}}
+
 {{ partial "widget-pinned.html" . }}<br>
 {{ partial "widget-recent.html" . }}<br>
 {{/* partial "widget-tags.html" . */}}<br>
