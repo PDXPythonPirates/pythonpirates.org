@@ -5,8 +5,13 @@
             <span class="icon is-large"><a href="{{ .Site.Params.slack_url }}" class="mysocial"><i class="fab fa-slack fa-3x"></i></a></span>&nbsp;&nbsp;
             <span class="icon is-large"><a href="{{ .Site.Params.github_url }}" class="mysocial"><i class="fab fa-github fa-3x"></i></a></span>&nbsp;&nbsp;
             <br><br>
-            Copyright &copy; {{ .Site.Title }} 2018-{{ now.Format "2006"}} - Theme by <a href="https://jeffprod.com" class="mysocial">JeffProd.com</a>
+            {{ .Site.Copyright }} - Theme by <a href="https://jeffprod.com" class="mysocial">JeffProd.com</a>
             - <a class="mysocial" href="{{ "about" | relURL }}">About</a>
+        </p>
+    </div>
+    <div class="content has-text-centered">
+        <p>
+            <em>site version: {{ .Site.LastChange.Format "2006-01-02 15:04" }}</em>
         </p>
     </div>
 </footer>
