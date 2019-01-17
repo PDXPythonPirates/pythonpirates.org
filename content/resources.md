@@ -58,6 +58,7 @@ weight: 20
   * [Talk Python To Me](https://talkpython.fm/) "Broadcast" locally from Portland!
   * [Python Bytes](https://pythonbytes.fm/) A weekly review of Python headlines  (also local!)
   * [Test and Code](https://testandcode.com/) A Python podcast with a focus on testing (yups, also local!)
+  * [Podcast.\_\_init\_\_](https://www.podcastinit.com/) A weekly podcast about Python and the people who make it great.
 
 # Code Challenge Sites
   * [CodingBat](https://codingbat.com/python)
