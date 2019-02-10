@@ -20,6 +20,7 @@ weight: 20
   * [Python Tutor](http://www.pythontutor.com/) - a fantastic site for visualizing code execution and simple collaborations
   * [Python 3 documentation](https://docs.python.org/3/)
   * [Python 3 standard library](https://docs.python.org/3/library/index.html) _keep this under your pillow_
+  * [PEP 8 reference](https://pep8.org/) - the style guide for Python code
   * [Python string formatting](https://pyformat.info/) - a thorough resource on string formatting
 
 # Git and GitHub References
