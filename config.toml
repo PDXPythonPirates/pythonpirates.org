@@ -16,8 +16,8 @@ summaryLength = 40
 
 
 [params]
-    course_title = "Computing in Python III: Data Structures"
-    course_url = "https://www.edx.org/course/computing-in-python-iii-data-structures-2"
+    course_title = "Computing in Python IV: Objects & Algorithms"
+    course_url = "https://www.edx.org/course/computing-in-python-iv-objects-algorithms-2"
 
     header_image = "/img/laptop-python-books.jpg"
     meetup_url = "https://www.meetup.com/Portland-Python-Pirates/"
