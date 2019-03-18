@@ -18,10 +18,17 @@ weight: 20
 
 # Python References
   * [Python Tutor](http://www.pythontutor.com/) - a fantastic site for visualizing code execution and simple collaborations
-  * [Python 3 documentation](https://docs.python.org/3/)
   * [Python 3 standard library](https://docs.python.org/3/library/index.html) _keep this under your pillow_
   * [PEP 8 reference](https://pep8.org/) - the style guide for Python code
   * [Python string formatting](https://pyformat.info/) - a thorough resource on string formatting
+
+# Other Notable sites
+  * [PyPi - Python Package Index](https://pypi.org/) - the repository where `pip` finds library packages
+  * [Python Module of the Week](https://pymotw.com/3/) - Series of articles to demonstrate how to use the modules of the Python 3 standard library
+  * [Real Python](https://realpython.com/) - Loads and loads of helpful articles, tutorials, and more
+  * [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) A comprehensive introduction to creating Flask projects
+  * [PythonAnywhere](https://www.pythonanywhere.com/) - Run python programs in a cloud instance
+  * [Python Articles](https://medium.freecodecamp.org/tagged/python ) - Python stories worth reading about programming and technology from our open source community.
 
 # Git and GitHub References
   * [Git cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet/) ([PDF](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf))
@@ -48,13 +55,6 @@ weight: 20
   * [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
   * [Think Python](http://greenteapress.com/wp/think-python-2e/)
   * [Python for Engineers](https://www.pythonforengineers.com/python-for-scientists-and-engineers/)
-
-# Other Notable sites
-  * [Real Python](https://realpython.com/) - Loads and loads of helpful articles, tutorials, and more
-  * [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) A comprehensive introduction to creating Flask projects
-  * [PythonAnywhere](https://www.pythonanywhere.com/) - Run python programs in a cloud instance
-  * [Python Module of the Week](https://pymotw.com/3/) - Series of articles to demonstrate how to use the modules of the Python 3 standard library
-  * [Python Articles](https://medium.freecodecamp.org/tagged/python ) - Python stories worth reading about programming and technology from our open source community.
 
 # Podcasts
   * [Talk Python To Me](https://talkpython.fm/) "Broadcast" locally from Portland!
