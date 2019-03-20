@@ -23,6 +23,7 @@ weight: 20
   * [Python string formatting](https://pyformat.info/) - a thorough resource on string formatting
 
 # Other Notable sites
+  * [VisuAlgo](https://visualgo.net/en) - Animated visuals of data structures and algorithms
   * [PyPi - Python Package Index](https://pypi.org/) - the repository where `pip` finds library packages
   * [Python Module of the Week](https://pymotw.com/3/) - Series of articles to demonstrate how to use the modules of the Python 3 standard library
   * [Real Python](https://realpython.com/) - Loads and loads of helpful articles, tutorials, and more
