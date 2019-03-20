@@ -16,8 +16,8 @@ summaryLength = 40
 
 
 [params]
-    course_title = "Computing in Python IV: Objects & Algorithms"
-    course_url = "https://www.edx.org/course/computing-in-python-iv-objects-algorithms-2"
+    course_title = "CS50 Web Programming with Python and JavaScript"
+    course_url = "https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript"
 
     header_image = "/img/laptop-python-books.jpg"
     meetup_url = "https://www.meetup.com/Portland-Python-Pirates/"
