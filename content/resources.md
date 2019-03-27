@@ -3,7 +3,7 @@ title: "Useful Resources"
 date: "2018-11-17"
 header_image: "/img/python-bookshelf.jpg"
 preview_image: "/img/python-bookshelf-og-preview.jpg"
-description: "The Pirates' selection of useful Python websites, books, podcasts, and other resources"
+description: "A pirate's bounty of useful Python websites, books, podcasts, and other resources"
 include_toc: true
 tags: ["website", "book", "pythontutor", "podcast"]
 menu: "main"
