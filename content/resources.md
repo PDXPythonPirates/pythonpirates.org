@@ -2,6 +2,8 @@
 title: "Useful Resources"
 date: "2018-11-17"
 header_image: "/img/python-bookshelf.jpg"
+preview_image: "/img/python-bookshelf-og-preview.jpg"
+description: "The Pirates' selection of useful Python websites, books, podcasts, and other resources"
 include_toc: true
 tags: ["website", "book", "pythontutor", "podcast"]
 menu: "main"
@@ -11,10 +13,6 @@ weight: 20
 
 # Course
   * We are currently studying the material from {{< courselink >}}.
-  * [PDF version](http://www.davidjoyner.net/b/wp-content/uploads/2017/03/Joyner_IntroductiontoComputing_1stEdition.pdf) of the book for the course
-
-# Slack
-  * [Formatting Slack messages](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages)
 
 # Python References
   * [Python Tutor](http://www.pythontutor.com/) - a fantastic site for visualizing code execution and simple collaborations
@@ -45,6 +43,9 @@ weight: 20
   * [Intro to Markdown](https://guides.github.com/features/mastering-markdown/)
   * [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+# Slack
+  * [Formatting Slack messages](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages)
+
 # Code Editors
   * [PyCharm](https://www.jetbrains.com/pycharm/) (community edition is free)
   * [VS Code](https://code.visualstudio.com/)
@@ -56,12 +57,13 @@ weight: 20
   * [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
   * [Think Python](http://greenteapress.com/wp/think-python-2e/)
   * [Python for Engineers](https://www.pythonforengineers.com/python-for-scientists-and-engineers/)
+  * [Introduction to Computing](http://www.davidjoyner.net/b/wp-content/uploads/2017/03/Joyner_IntroductiontoComputing_1stEdition.pdf) - from the Georgia Tech course on edX the group studied
 
 # Podcasts
-  * [Talk Python To Me](https://talkpython.fm/) "Broadcast" locally from Portland!
-  * [Python Bytes](https://pythonbytes.fm/) A weekly review of Python headlines  (also local!)
-  * [Test and Code](https://testandcode.com/) A Python podcast with a focus on testing (yups, also local!)
-  * [Podcast.\_\_init\_\_](https://www.podcastinit.com/) A weekly podcast about Python and the people who make it great.
+  * [Talk Python To Me](https://talkpython.fm/) - A local podcast from Portland
+  * [Python Bytes](https://pythonbytes.fm/) - A weekly review of Python headlines (also local)
+  * [Test and Code](https://testandcode.com/) - A Python podcast with a focus on testing (also local)
+  * [Podcast.\_\_init\_\_](https://www.podcastinit.com/) - A weekly podcast about Python and the people who make it great.
 
 # Code Challenge Sites
   * [CodingBat](https://codingbat.com/python)

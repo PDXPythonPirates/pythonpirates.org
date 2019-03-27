@@ -20,6 +20,11 @@ summaryLength = 40
     course_url = "https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript"
 
     header_image = "/img/laptop-python-books.jpg"
+
+    # default preview information displayed in Slack and Twitter links
+    preview_image = "/img/pirates-ogp-link-preview.jpg"
+    preview_description = "We are a group of aspiring pythonistas helping each other improve our skills with the Python programming language through free and inexpensive online resources"
+
     meetup_url = "https://www.meetup.com/Portland-Python-Pirates/"
     slack_group = "pythonpirates"
     slack_url = "https://pythonpirates.slack.com"
