@@ -124,5 +124,5 @@ Let us know in the MeetUp what you would like to dive into further.
 
 
 
-[scores_download]: https://raw.githubusercontent.com/PDXPythonPirates/workshops/master/file-io/scores.txt
+[scores_download]: https://raw.githubusercontent.com/PDXPythonPirates/examples/master/file-io/scores.txt
 [open_docs]: https://docs.python.org/3/library/functions.html#open
