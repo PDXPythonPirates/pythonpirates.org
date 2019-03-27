@@ -1,0 +1,13 @@
+{{ $preview_img := .Page.Params.preview_image | default .Site.Params.preview_image }}
+{{ $preview_description := .Page.Description | default .Site.Params.preview_description }}
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
+    <meta property="og:title" content="{{ .Page.LinkTitle }}" />
+    <meta property="og:description" content="{{ $preview_description }}" />
+    <meta property="og:url" content="{{ .Page.Permalink }}" />
+    <meta property="og:image" content="{{ $preview_img | absURL }}" />
+    <meta property="og:type" content="website" />
