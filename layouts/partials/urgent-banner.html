@@ -1,15 +1,23 @@
 {{ if and (.Site.Params.display_urgent | default false) (.Page.Params.display_urgent | default true) }}
 <div class="columns">
     <div class="column is-12">
-        <div class="tile is-child box danger">
+        <div class="tile is-child box info">
             <div class="content">
                     <article class="media">
                         <div class="media-content">
                             <div class="content">
-                                <p class="title is-4"><a href="{{ .Site.Params.urgent_url}}">{{ .Site.Params.urgent_link_title }}</a></p>
-                                <p>edX is changing features available to students auditing classes!<br/>
-                                <em>You must sign up for all courses by end of this Sunday, Dec. 16 to have access to Problem Sets.</em></p>
-                                <p><a href="{{ .Site.Params.urgent_url}}">Additional details and links here.</a></p>
+                                <p class="title is-4"><a href="{{ .Site.Params.urgent_url }}">{{ .Site.Params.urgent_link_title }}</a></p>
+                                <p>
+                                    <strong>Great news everyone!
+                                    The group is making the switch to 
+                                    <a href="{{ .Site.Params.urgent_url }}">Java</a>!</strong>
+                                </p>
+                                <div>
+                                    <a href="{{ .Site.Params.urgent_url }}"><img width="50" src="/img/java/java-logo-with-text-150.png"></a>
+                                    <a href="{{ .Site.Params.urgent_url }}"><img width="50" src="/img/java/java-duke-120.png"></a>
+                                    <a href="{{ .Site.Params.urgent_url }}"><img width="50" src="/img/java/python-forbidden-150.png"></a>
+                                </div>
+                                <p><a href="{{ .Site.Params.urgent_url }}">Additional details and links here.</a></p>
                             </div>
                         </div>
                     </article>
