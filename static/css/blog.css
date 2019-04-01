@@ -13,3 +13,4 @@ html,body {
 .postsocial { color: #aaaaaa;}
 .postsocial:hover { color: #222222 }
 .danger { background:rgba(200, 0, 0, 0.2);}
+.info { background:rgba(0, 0, 200, 0.2);}

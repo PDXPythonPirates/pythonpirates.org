@@ -3,8 +3,8 @@
 #   hugo server -D
 #
 baseurl = "https://www.pythonpirates.org"
-title = "Portland Python Pirates"
-copyright = "Copyright © 2018–2019 Portland Python Pirates"
+title = "Portland Java Pirates"
+copyright = "Copyright © 2018–2019 Portland Java Pirates"
 theme = "jeffprod"
 googleAnalytics = "UA-131409351-1"
 enableGitInfo = true
@@ -16,14 +16,14 @@ summaryLength = 40
 
 
 [params]
-    course_title = "CS50 Web Programming with Python and JavaScript"
-    course_url = "https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript"
+    course_title = "TBD"
+    course_url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
     header_image = "/img/laptop-python-books.jpg"
 
     # default preview information displayed in Slack and Twitter links
-    preview_image = "/img/pirates-ogp-link-preview.jpg"
-    preview_description = "We are a group of aspiring pythonistas helping each other improve our skills with the Python programming language through free and inexpensive online resources"
+    preview_image = "/img/java/java-og-preview.jpg"
+    preview_description = "It's Java time! Dust off your Design Patterns books, fire up the AbstractFactoryBeans, and get ready for some industrial strength programming! We're making the switch to Java!"
 
     meetup_url = "https://www.meetup.com/Portland-Python-Pirates/"
     slack_group = "pythonpirates"
@@ -34,17 +34,17 @@ summaryLength = 40
 
     # this toggles display of the urgent banner text at the top of all pages
     # individual pages can disable this with the page front matter 'display_urgent: false'
-    #display_urgent = true
+    display_urgent = true
 
     # this overrides the header image for all pages;  comment out to disable
-    #urgent_header_image = "/img/urgent-edx.jpg"
+    urgent_header_image = "/img/java/java-header.jpg"
 
-    urgent_url = "/edx"
+    urgent_url = "/java/"
     # text displayed in top page nav; unset this to remove
-    urgent_nav_title = "edX Policy Change"
+    #urgent_nav_title = "Java"
     # link text displayed in banner box at the top of content section
-    urgent_link_title = "Urgent: edX Policy Change"
-    urgent_date = "2018-12-13"
+    urgent_link_title = "Meetup Switching Focus to Java"
+    urgent_date = "2019-04-01"
 
 [taxonomies]
     tag = "tags"
