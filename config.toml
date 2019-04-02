@@ -2,7 +2,7 @@
 #
 #   hugo server -D
 #
-baseurl = "https://www.pythonpirates.org"
+baseurl = "https://javapirates.netlify.com"
 title = "Portland Java Pirates"
 copyright = "Copyright © 2018–2019 Portland Java Pirates"
 theme = "jeffprod"
