@@ -5,7 +5,6 @@ date: 2018-12-04
 #author: "Matt Phillips"
 #author_github: "imattman"
 header_image: "/img/keyboard-closeup.jpg"
-draft: true
 ---
 
 # File I/O: Just Enough To Be Dangerous
