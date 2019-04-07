@@ -2,13 +2,17 @@
 <html lang="{{ $.Site.LanguageCode | default "en" }}">
 <head>
     <title>{{ .Site.Title }} {{ with .Title }} | {{ . }}{{ end }}</title>
-    {{ partial "header-meta.html" . }}
+    {{- partial "header-meta.html" . -}}
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
     <link rel="stylesheet" href="{{ "css/blog.css" | relURL }}" />
     <script type="text/javascript" src="{{ "js/nav.js" | relURL }}"></script>
+
+    {{ range .AlternativeOutputFormats -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
 </head>
 <body>
 
