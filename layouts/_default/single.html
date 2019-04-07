@@ -8,8 +8,11 @@
             <div class="content">
                 {{ if eq .Type "post" }}
                     {{ partial "author-info.html" . }}
-                    <hr>
                 {{ end }}
+                {{ .Date.Format "January 2, 2006" }}
+                &middot;
+                Last updated {{ .Lastmod.Format "January 2, 2006" }}
+                <hr>
 
                 {{ .Content }}
             </div>
