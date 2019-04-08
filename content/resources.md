@@ -14,7 +14,7 @@ weight: 20
 # Course
   * We are currently studying the material from {{< courselink >}}.
 
-# Python References
+# Python
   * [Python Tutor](http://www.pythontutor.com/) - a fantastic site for visualizing code execution and simple collaborations
   * [Python 3 standard library](https://docs.python.org/3/library/index.html) _keep this under your pillow_
   * [PEP 8 reference](https://pep8.org/) - the style guide for Python code
@@ -27,21 +27,24 @@ weight: 20
   * [PythonAnywhere](https://www.pythonanywhere.com/) - Run python programs in a cloud instance
   * [Python Articles](https://medium.freecodecamp.org/tagged/python ) - Python stories worth reading about programming and technology from our open source community.
 
-# HTML, CSS, & JS References
+# HTML, CSS, and JavaScript
   * [MDN Web docs](https://developer.mozilla.org/en-US/docs/Web) - Mozilla Developer Network guides
   * [Free Code Camp](https://www.freecodecamp.org/) - project based courses for learning web technologies
   * [Flexbox Froggy](https://flexboxfroggy.com/) - tutorial for learning CSS flexbox
   * [Grid Garden](https://cssgridgarden.com/) - tutorial for learning CSS grid
 
-# Git and GitHub References
+# Git and GitHub
+  * [Official Git reference](https://git-scm.com/docs)
+  * [GitHub: How to Sync a Fork](https://help.github.com/en/articles/syncing-a-fork)
   * [Git cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet/) ([PDF](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf))
+  * [Git Visual Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
+  * [Git Visual (interactive)](http://onlywei.github.io/explain-git-with-d3/) - animation using D3
   * [Intro to Git on Codecademy](https://www.codecademy.com/learn/learn-git)
   * [Udacity Free Course: How to use Git and GitHub](https://in.udacity.com/course/how-to-use-git-and-github--ud775-india)
   * [Atlassian Git tutorials](https://www.atlassian.com/git/tutorials)
   * [GitHub workflow documentation](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/)
   * [O'Reilly Git Pocket Guide](http://shop.oreilly.com/product/0636920024972.do) ([Amazon](https://www.amazon.com/Git-Pocket-Guide-Working-Introduction/dp/1449325866/))
-  * [Official Git reference](https://git-scm.com/docs)
-  * [GitHub: How to Sync a Fork](https://help.github.com/en/articles/syncing-a-fork)
+  * [Git Bash Completion](https://github.com/git/git/tree/master/contrib/completion) - Git completions and info in your Bash prompt
 
 # Markdown
   * [Intro to Markdown](https://guides.github.com/features/mastering-markdown/)

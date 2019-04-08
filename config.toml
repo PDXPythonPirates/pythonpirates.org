@@ -2,6 +2,14 @@
 #
 #   hugo server -D
 #
+# To launch behind an ngrok proxy (https://ngrok.com/)
+#
+#   # launch ngrok to set up proxy and generate base URL
+#   ngrok http 1313
+#   ...
+#   # use the generated ngrok URL for the hugo base URL
+#   hugo server --appendPort=false -b https://NGROK_URL
+#
 baseurl = "https://www.pythonpirates.org"
 title = "Portland Python Pirates"
 copyright = "Copyright © 2018–2019 Portland Python Pirates"
