@@ -19,15 +19,19 @@ weight: 20
   * [Python 3 standard library](https://docs.python.org/3/library/index.html) _keep this under your pillow_
   * [PEP 8 reference](https://pep8.org/) - the style guide for Python code
   * [Python string formatting](https://pyformat.info/) - a thorough resource on string formatting
-
-# Other Notable sites
-  * [VisuAlgo](https://visualgo.net/en) - Animated visuals of data structures and algorithms
   * [PyPi - Python Package Index](https://pypi.org/) - the repository where `pip` finds library packages
+  * [VisuAlgo](https://visualgo.net/en) - Animated visuals of data structures and algorithms
   * [Python Module of the Week](https://pymotw.com/3/) - Series of articles to demonstrate how to use the modules of the Python 3 standard library
   * [Real Python](https://realpython.com/) - Loads and loads of helpful articles, tutorials, and more
-  * [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) A comprehensive introduction to creating Flask projects
+  * [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) - a comprehensive introduction to creating Flask projects
   * [PythonAnywhere](https://www.pythonanywhere.com/) - Run python programs in a cloud instance
   * [Python Articles](https://medium.freecodecamp.org/tagged/python ) - Python stories worth reading about programming and technology from our open source community.
+
+# HTML, CSS, & JS References
+  * [MDN Web docs](https://developer.mozilla.org/en-US/docs/Web) - Mozilla Developer Network guides
+  * [Free Code Camp](https://www.freecodecamp.org/) - project based courses for learning web technologies
+  * [Flexbox Froggy](https://flexboxfroggy.com/) - tutorial for learning CSS flexbox
+  * [Grid Garden](https://cssgridgarden.com/) - tutorial for learning CSS grid
 
 # Git and GitHub References
   * [Git cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet/) ([PDF](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf))
