@@ -38,6 +38,7 @@ summaryLength = 40
     slack_url = "https://pythonpirates.slack.com"
     slack_join_request_url = "https://join.slack.com/t/pythonpirates/shared_invite/enQtNDYyMjg5NzEyMzM2LTlhNjAxYjJiOTVkYjA2ODE3MDc0ZTQ1YmQ2YWEwODJlZTIwY2Y5YmUzYjNhNDIxMTlhYWJjZGYwNWU5MzVkYmI"
     github_url = "https://github.com/PDXPythonPirates"
+    twitter_url = "https://twitter.com/pythonpirates"
     include_toc = false
 
     # this toggles display of the urgent banner text at the top of all pages

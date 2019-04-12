@@ -12,6 +12,8 @@ We are a group of aspiring [pythonistas](https://www.urbandictionary.com/define.
 Our group meets regularly on a (mostly) weekly basis.
 Anyone located in the Portland Oregon area is welcome to attend our {{< meetuplink >}}.
 
+You can also find us on {{< twitterlink >}} and {{< githublink >}}.
+
 We are currently studying course material from {{< courselink >}}.
 
 See the [Getting Started page]({{< ref "/start.md" >}}) for information on joining us.
