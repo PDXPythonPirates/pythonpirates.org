@@ -9,8 +9,10 @@ description: "{{ replace .Name "-" " " | title }}"
 #author_github: "github-name"
 
 header_image: "/img/keyboard-closeup.jpg"
-# preview image displayed in Slack link
-#preview_image: "/img/..."
+
+# preview image displayed in Slack and Twitter link
+#images:
+#- "/img/..."
 
 # include Table of Contents in side nav
 include_toc: true
