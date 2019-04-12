@@ -30,7 +30,7 @@ summaryLength = 40
     header_image = "/img/laptop-python-books.jpg"
 
     # default preview information displayed in Slack and Twitter links
-    images = ["/img/pirates-ogp-link-preview.jpg"]
+    images = ["/img/ogp-preview-laptop-500.jpg"]
     description = "We are a group of aspiring pythonistas helping each other improve our skills with the Python programming language through free and inexpensive online resources"
 
     meetup_url = "https://www.meetup.com/Portland-Python-Pirates/"

@@ -1,7 +1,7 @@
 ---
 title: "About Us"
 date: "2018-11-17"
-header_image: "/img/py_meetup_group.jpeg"
+header_image: "/img/py_meetup_group.jpg"
 menu: "main"
 ---
 
