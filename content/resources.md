@@ -4,7 +4,7 @@ date: "2018-11-17"
 header_image: "/img/python-bookshelf.jpg"
 # preview image used with Slack and Twitter links
 images:
-- "/img/python-bookshelf-og-preview.jpg"
+- "/img/ogp-preview-bookshelf-500.jpg"
 description: "A pirate's bounty of useful Python websites, books, podcasts, and other resources"
 include_toc: true
 tags: ["resources", "books", "pythontutor", "podcasts"]
