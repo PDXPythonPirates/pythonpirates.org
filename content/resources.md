@@ -31,6 +31,7 @@ weight: 20
 
 # HTML, CSS, and JavaScript
   * [MDN Web docs](https://developer.mozilla.org/en-US/docs/Web) - Mozilla Developer Network guides
+  * [W3 Schools](https://www.w3schools.com/) - WORLD'S LARGEST WEB DEVELOPER SITE
   * [Free Code Camp](https://www.freecodecamp.org/) - project based courses for learning web technologies
   * [Flexbox Froggy](https://flexboxfroggy.com/) - tutorial for learning CSS flexbox
   * [Grid Garden](https://cssgridgarden.com/) - tutorial for learning CSS grid
