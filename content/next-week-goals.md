@@ -16,10 +16,10 @@ weight: 20
 ---
 <!-- UL -->
   * Get ready to present Project 0!!!
-    *  [Project 0 details] https://docs.cs50.net/web/2018/x/projects/0/project0.html
+    *  [Project 0 details](https://docs.cs50.net/web/2018/x/projects/0/project0.html)
   * Think about ways to contribute to pythonpirates.org by adding content, links, or resources
   * Catch up on the course lectures, 0-2, or get started on lecture 3
-    * [Lecture 2 on youtube] https://www.youtube.com/watch?v=j5wysXqaIV8
+    * [Lecture 2 on youtube](https://www.youtube.com/watch?v=j5wysXqaIV8)
 
 ---
 #### Topics we are learning about right now in this Meet-up: Git, Git Bash, GitHub, Flask, HTML, CSS, Sass, Python, Web Apps, Bootstrap, Hugo... ####
