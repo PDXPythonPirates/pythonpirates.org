@@ -6,12 +6,13 @@ header_image: "/img/python-bookshelf.jpg"
 images:
 - "/img/ogp-preview-bookshelf-500.jpg"
 description: "What to complete by next Tuesday to keep up with the Meetup Group"
-include_toc: true
+include_toc: false
 tags: ["goals", "course", "deadlines"]
 menu: "main"
 pinned: true
 weight: 20
 ---
+
 # **Goals for Tuesday the 30th:** #
 ---
 <!-- UL -->
