@@ -1,6 +1,6 @@
 ---
 title: "Goals for Next Tuesday"
-date: "2019-04-24"
+date: "2019-05-02"
 header_image: "/img/python-bookshelf.jpg"
 # preview image used with Slack and Twitter links
 images:
@@ -13,17 +13,17 @@ pinned: true
 weight: 20
 ---
 
-# **Goals for Tuesday the 30th:** #
+# **Goals for Tuesday the 7th:** #
 ---
 <!-- UL -->
-  * Get ready to present Project 0!!!
-    *  [Project 0 details](https://docs.cs50.net/web/2018/x/projects/0/project0.html)
+  * Get started on Project 1
+    *  [Project 1 details](https://docs.cs50.net/web/2018/x/projects/1/project1.html)
+  * Watch Lecture 3
+    * [Lecture 3 on youtube](https://www.youtube.com/watch?v=Eda-NmcE5mQ)
   * Think about ways to contribute to pythonpirates.org by adding content, links, or resources
-  * Catch up on the course lectures, 0-2, or get started on lecture 3
-    * [Lecture 2 on youtube](https://www.youtube.com/watch?v=j5wysXqaIV8)
 
 ---
-#### Topics we are learning about right now in this Meet-up: Git, Git Bash, GitHub, Flask, HTML, CSS, Sass, Python, Web Apps, Bootstrap, Hugo... ####
+#### Topics we are learning about right now in this Meetup: Git, Git Bash, GitHub, Flask, HTML, CSS, Sass, Python, Web Apps, Bootstrap, Hugo, SQL... ####
 \
 \
 \
