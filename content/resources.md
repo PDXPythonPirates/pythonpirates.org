@@ -48,6 +48,7 @@ weight: 20
   * [GitHub workflow documentation](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/)
   * [O'Reilly Git Pocket Guide](http://shop.oreilly.com/product/0636920024972.do) ([Amazon](https://www.amazon.com/Git-Pocket-Guide-Working-Introduction/dp/1449325866/))
   * [Git Bash Completion](https://github.com/git/git/tree/master/contrib/completion) - Git completions and info in your Bash prompt
+  * [Gitignore.io](https://www.gitignore.io/) - Useful for generating `.gitignore` contents ([example](https://www.gitignore.io/api/code,python,pycharm))
 
 # Markdown
   * [Intro to Markdown](https://guides.github.com/features/mastering-markdown/)
