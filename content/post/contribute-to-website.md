@@ -4,7 +4,7 @@ date: 2018-11-19
 header_image: "/img/keyboard-closeup.jpg"
 description: "Contribututions to our website are welcome and encouraged from community members!  This page describes how to get started."
 images:
-- "/img/keyboard-closeup.jpg"
+- "/img/ogp-preview-keyboard-500.jpg"
 include_toc: true
 tags: ["website", "hugo"]
 ---
