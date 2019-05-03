@@ -10,8 +10,12 @@
                     {{ partial "author-info.html" . }}
                 {{ end }}
                 {{ .Date.Format "January 2, 2006" }}
-                &middot;
-                Last updated {{ .Lastmod.Format "January 2, 2006" }}
+
+                {{ $oneDayWindow := .Page.Date.AddDate 0 0 1 }}
+                {{ if .Lastmod.After ( $oneDayWindow ) }}
+                  &middot;
+                  Last updated {{ .Lastmod.Format "January 2, 2006" }}
+                {{ end }}
                 <hr>
 
                 {{ .Content }}
