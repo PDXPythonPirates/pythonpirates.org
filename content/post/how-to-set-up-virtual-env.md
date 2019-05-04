@@ -108,7 +108,7 @@ If python isn't found using the check in _step 1._ then it's likely your **PATH*
 
 
 [gitignore]: https://www.gitignore.io/
-[gitignore_example]: https://www.gitignore.io/api/code,python,pycharmwin_env_path
+[gitignore_example]: https://www.gitignore.io/api/code,python,pycharm
 [win_env_path]: https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
 [python_docs]: https://docs.python.org/3/tutorial/venv.html
 [pmotw]: https://pymotw.com/3/venv/
