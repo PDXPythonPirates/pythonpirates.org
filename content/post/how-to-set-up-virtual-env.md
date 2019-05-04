@@ -79,7 +79,7 @@ Learning to use virtual environments can seem like a hassle and a bit cumbersome
 # General Tips
 
   * **Activate** the virtual environment (_step 4. above_) anytime you start a new command shell, otherwise the packages installed in that environment won't be found.
-  * The `venv` contains information specific to your computer and shouldn't be checked into Git.  This is the main reason for the explicit step to add a `.gitignore` file... and it's just good practice :sunglasses:
+  * The `venv` directory contains information specific to your computer and shouldn't be checked into Git.  This is the main reason for the explicit step to add a `.gitignore` file... and it's a good practice :sunglasses:
   * GitHub offers an option to "Add `.gitignore`" when you create a new project.  
     Select "Python" in the list for a shortcut on _step 5._
 
