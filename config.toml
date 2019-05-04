@@ -39,6 +39,7 @@ summaryLength = 40
     slack_url = "https://pythonpirates.slack.com"
     slack_join_request_url = "https://join.slack.com/t/pythonpirates/shared_invite/enQtNDYyMjg5NzEyMzM2LTlhNjAxYjJiOTVkYjA2ODE3MDc0ZTQ1YmQ2YWEwODJlZTIwY2Y5YmUzYjNhNDIxMTlhYWJjZGYwNWU5MzVkYmI"
     github_url = "https://github.com/PDXPythonPirates"
+    github_version_url = "https://github.com/PDXPythonPirates/pythonpirates.org/commit/"
     twitter_url = "https://twitter.com/pythonpirates"
     include_toc = false
 
@@ -55,6 +56,12 @@ summaryLength = 40
     # link text displayed in banner box at the top of content section
     urgent_link_title = "Urgent: edX Policy Change"
     urgent_date = "2018-12-13"
+
+[frontmatter]
+    # default order checks Git first
+    #lastmod = [":git", "lastmod", "date", "publishDate"]
+    lastmod = ["lastmod", ":git", "date", "publishDate"]
+
 
 [taxonomies]
     tag = "tags"

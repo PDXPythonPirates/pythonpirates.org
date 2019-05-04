@@ -1,6 +1,8 @@
 ---
 title: "Goals for Next Tuesday"
 date: "2019-05-02"
+lastmod: "2019-05-02"
+include_date: true
 header_image: "/img/python-bookshelf.jpg"
 # preview image used with Slack and Twitter links
 images:

@@ -1,21 +1,28 @@
 {{ define "main" }}
 
+{{ $show_pub_date := or (eq .Type "post") (.Page.Params.include_date) }}
+{{ $page_modifed := (ne (.Date.Format "2006-01-02") (.Lastmod.Format "2006-01-02")) }}
+{{ $show_lastmod := or (.Page.Params.include_lastmod) (and ($show_pub_date) ($page_modifed)) }}
+
 {{ partial "urgent-banner.html" . }}
 
 <div class="columns">
     <div class="column is-9">
         <div class="tile is-child box">
             <div class="content">
-                {{ if eq .Type "post" }}
-                    {{ partial "author-info.html" . }}
+                {{ if $show_pub_date }}
+                  {{ partial "author-info.html" . }}
+                  {{ .Date.Format "January 2, 2006" }}
+                  {{ if $show_lastmod }}
+                    &middot;
+                  {{ end }}
                 {{ end }}
-                {{ .Date.Format "January 2, 2006" }}
-
-                {{ if ne ( .Date.Format "2006-01-02" ) ( .Lastmod.Format "2006-01-02" ) }}
-                  &middot;
-                  Last updated {{ .Lastmod.Format "January 2, 2006" }}
+                {{ if $show_lastmod }}
+                    Last updated {{ .Lastmod.Format "January 2, 2006" }}
                 {{ end }}
-                <hr>
+                {{ if or ($show_pub_date) ($show_lastmod) }}
+                  <hr>
+                {{ end }}
 
                 {{ .Content }}
             </div>

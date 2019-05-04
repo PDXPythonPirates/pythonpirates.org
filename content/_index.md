@@ -1,6 +1,7 @@
 ---
 title: "Portland Python Pirates"
 date: "2018-11-17"
+lastmod: "2018-11-17"
 header_image: "/img/laptop-python-books.jpg"
 menu: "main"
 ---

@@ -1,6 +1,9 @@
 ---
 title: "Useful Resources"
 date: "2018-11-17"
+# if not set, lastmod is determined from Git info
+#lastmod: "2018-11-17"
+include_lastmod: true
 header_image: "/img/python-bookshelf.jpg"
 # preview image used with Slack and Twitter links
 images:

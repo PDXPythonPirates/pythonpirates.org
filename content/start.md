@@ -1,6 +1,7 @@
 ---
 title: "Getting Started"
 date: "2018-11-17"
+lastmod: "2018-11-17"
 header_image: "/img/Portland_Night_panorama.jpg"
 description: "New member onboarding instructions"
 menu: "main"
