@@ -1,6 +1,7 @@
 ---
 title: "Making Draft Content Visible"
 date: 2018-11-18
+lastmod: 2019-01-01
 author: ""
 header_image: "/img/keyboard-closeup.jpg"
 draft: true

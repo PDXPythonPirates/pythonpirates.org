@@ -2,6 +2,7 @@
 title: "How to Set Up a Virtual Environment"
 description: "A short tutorial for configuring a virtual environment in your Python project."
 date: 2019-05-03
+lastmod: 2019-05-03
 #author: "Matt Phillips"
 #author_github: "imattman"
 header_image: "/img/keyboard-closeup.jpg"

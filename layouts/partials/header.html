@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ $.Site.LanguageCode | default "en" }}">
 <head>
+    {{ (printf `<!--  Site published:  %s  -->` time.Now) | safeHTML }}
+    {{ if .IsPage -}}
+    {{ (printf `<!--  Page updated:    %s  -->` .GitInfo.AuthorDate) | safeHTML }}
+    {{ end }}
     <title>{{ .Site.Title }} {{ with .Title }} | {{ . }}{{ end }}</title>
     {{- partial "header-meta.html" . -}}
 

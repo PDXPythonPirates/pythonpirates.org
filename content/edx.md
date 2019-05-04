@@ -1,6 +1,7 @@
 ---
 title: "Urgent: edX Policy Change"
 date: "2018-12-13"
+lastmod: "2018-12-13"
 menu: "main"
 tags: ["edx"]
 pinned: true
