@@ -23,57 +23,57 @@ Learning to use virtual environments can seem like a hassle and a bit cumbersome
 #### Windows
 
   1. Use `where` to verify **python** is in your **%PATH%**.  
-  This should list one or more full paths to **python.exe**.
+  This should list one or more full paths to **python.exe**.  
     ```
     where python
     ```
-  2. Change to your project directory.
+  2. Change to your project directory.  
     ```
     cd path\to\my-project
     ```
-  3. Create a new virtual environment configuration using Python and the **venv** library.
+  3. Create a new virtual environment configuration using Python and the **venv** library.  
     ```
     python -m venv venv
     ```
-  4. Activate your virtual environment by running the _activate_ script located in the new `venv` directory.
+  4. Activate your virtual environment by running the _activate_ script located in the new `venv` directory.  
     ```
     venv\Scripts\activate
     ```
   5. Add a `.gitignore` file to the root of your project if one doesn't exist.  
      If the file does exist verify it contains a line with `venv`.  
-
+    
      See [gitignore.io][gitignore] for easy generation of file contents ([example][gitignore_example] with common tools)  
-
+    
      **Note:** the name of the file must be `.gitignore`
 
 
 #### Mac / Linux
 
   1. Use `which` to verify **python** is in your **$PATH**.  
-  This should list the full path to a **python3** binary.
+  This should list the full path to a **python3** binary.  
     ```
     which python3
     ```
-  2. Change to your project directory.
+  2. Change to your project directory.  
     ```
     cd path/to/my-project
     ```
-  3. Create a new virtual environment configuration using Python and the **venv** library.
+  3. Create a new virtual environment configuration using Python and the **venv** library.  
     ```
     python3 -m venv venv
     ```
-  4. Activate your virtual environment by sourcing the _activate_ script located in the new `venv` directory.
+  4. Activate your virtual environment by sourcing the _activate_ script located in the new `venv` directory.  
     ```
     source venv/bin/activate
     ```
   5. Add a `.gitignore` file to the root of your project if one doesn't exist.  
      If the file does exist verify it contains a line with `venv`.  
-
+    
      See [gitignore.io][gitignore] for easy generation of file contents ([example][gitignore_example] with common tools)  
      ```
      curl -s 'https://www.gitignore.io/api/code,python,pycharm' > .gitignore
      ```
-
+    
      **Note:** the name of the file must be `.gitignore`  
 
 # General Tips
@@ -92,7 +92,7 @@ If python isn't found using the check in _step 1._ then it's likely your **PATH*
   ```
   echo $PATH
   ```  
-  Update the PATH if absent (consider adding this to your `.bashrc`)
+  Update the PATH if absent (consider adding this to your `.bashrc`)  
   ```
   export PATH="/usr/local/bin:$PATH"
   ```  
