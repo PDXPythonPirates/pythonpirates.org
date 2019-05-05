@@ -1,8 +1,10 @@
 ---
 title: "Goals for Next Tuesday"
-date: "2019-05-02"
+#date: "2019-05-02"
+# lastmod is determined from Git info if not set here
 lastmod: "2019-05-02"
-include_date: true
+include_date: false
+include_lastmod: true
 header_image: "/img/python-bookshelf.jpg"
 # preview image used with Slack and Twitter links
 images:
@@ -10,6 +12,8 @@ images:
 description: "What to complete by next Tuesday to keep up with the Meetup Group"
 include_toc: false
 tags: ["goals", "course", "deadlines"]
+aliases:
+- "/goals"
 menu: "main"
 pinned: true
 weight: 20
