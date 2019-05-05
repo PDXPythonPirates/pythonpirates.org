@@ -1,13 +1,15 @@
 ---
 title: "Contribute to this Website"
-date: 2018-11-19
-lastmod: 2018-11-19
+date: "2018-11-19"
+lastmod: "2018-11-19"
 header_image: "/img/keyboard-closeup.jpg"
 description: "Contribututions to our website are welcome and encouraged from community members!  This page describes how to get started."
 images:
 - "/img/ogp-preview-keyboard-500.jpg"
 include_toc: true
 tags: ["website", "hugo"]
+aliases:
+- "/contribute"
 ---
 
 # Overview: How to Contribute

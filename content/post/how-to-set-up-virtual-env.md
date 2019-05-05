@@ -1,8 +1,8 @@
 ---
 title: "How to Set Up a Virtual Environment"
 description: "A short tutorial for configuring a virtual environment in your Python project."
-date: 2019-05-03
-lastmod: 2019-05-03
+#date: "2019-05-03"
+lastmod: "2019-05-05"
 #author: "Matt Phillips"
 #author_github: "imattman"
 header_image: "/img/keyboard-closeup.jpg"
@@ -10,6 +10,9 @@ images:
 - "/img/ogp-preview-python-tools-500.jpg"
 include_toc: true
 tags: ["venv", "pip"]
+aliases:
+- "/venv"
+- "/virtualenv"
 ---
 
 # Motivation
@@ -36,16 +39,25 @@ Learning to use virtual environments can seem like a hassle and a bit cumbersome
     ```
     python -m venv venv
     ```
-  4. Activate your virtual environment by running the _activate_ script located in the new `venv` directory.  
+  4. Activate your virtual environment by running the _activate_ script located under the new `venv` directory.  
     ```
     venv\Scripts\activate
     ```
-  5. Add a `.gitignore` file to the root of your project if one doesn't exist.  
-     If the file does exist verify it contains a line with `venv`.  
+  5. Install additional packages with `pip`.  
+    Individual packages can be installed with `pip install` and the library name.  
+    ```
+    pip install flask
+    ```
+    A list of packages contained in a requirements file can be installed using the `-r` flag.  
+    ```
+    pip install -r requirements.txt
+    ```
+  6. Add a `.gitignore` file to the root of your project if one doesn't exist.  
+    If the file does exist verify it contains a line with `venv`.  
     
-     See [gitignore.io][gitignore] for easy generation of file contents ([example][gitignore_example] with common tools)  
+    See [gitignore.io][gitignore] for easy generation of file contents ([example][gitignore_example] with common tools)  
     
-     **Note:** the name of the file must be `.gitignore`
+    **Note:** the name of the file must be `.gitignore`
 
 
 #### Mac / Linux
@@ -63,19 +75,28 @@ Learning to use virtual environments can seem like a hassle and a bit cumbersome
     ```
     python3 -m venv venv
     ```
-  4. Activate your virtual environment by sourcing the _activate_ script located in the new `venv` directory.  
+  4. Activate your virtual environment by sourcing the _activate_ script located under the new `venv` directory.  
     ```
     source venv/bin/activate
     ```
-  5. Add a `.gitignore` file to the root of your project if one doesn't exist.  
-     If the file does exist verify it contains a line with `venv`.  
+  5. Install additional packages with `pip`.  
+    Individual packages can be installed with `pip install` and the library name.  
+    ```
+    pip install flask
+    ```
+    A list of packages contained in a requirements file can be installed using the `-r` flag.  
+    ```
+    pip install -r requirements.txt
+    ```
+  6. Add a `.gitignore` file to the root of your project if one doesn't exist.  
+    If the file does exist verify it contains a line with `venv`.  
     
-     See [gitignore.io][gitignore] for easy generation of file contents ([example][gitignore_example] with common tools)  
-     ```
-     curl -s 'https://www.gitignore.io/api/code,python,pycharm' > .gitignore
-     ```
+    See [gitignore.io][gitignore] for easy generation of file contents ([example][gitignore_example] with common tools)  
+    ```
+    curl -s 'https://www.gitignore.io/api/code,python,pycharm' > .gitignore
+    ```
     
-     **Note:** the name of the file must be `.gitignore`  
+    **Note:** the name of the file must be `.gitignore`  
 
 # General Tips
 
@@ -83,6 +104,7 @@ Learning to use virtual environments can seem like a hassle and a bit cumbersome
   * The `venv` directory contains information specific to your computer and shouldn't be checked into Git.  This is the main reason for the explicit step to add a `.gitignore` file... and it's a good practice :sunglasses:
   * GitHub offers an option to "Add `.gitignore`" when you create a new project.  
     Select "Python" in the list for a shortcut on _step 5._
+  * [Pypi.org](https://pypi.org) is where `pip` finds the packages it downloads.  The PyPi website offers search options for when you don't know exactly which package to use.
 
 # Troubleshooting
 
@@ -104,7 +126,8 @@ If python isn't found using the check in _step 1._ then it's likely your **PATH*
 
   * [Python documentation][python_docs] on the `venv` library and virtual environments
   * [Python Module of the Week][pmotw] article on virtual environments
-  * [Real Python][real_python] virtual environment primer
+  * [Real Python virtual environment][real_python_venv] primer
+  * [Real Python pip][real_python_pip] article
 
 
 
@@ -113,5 +136,6 @@ If python isn't found using the check in _step 1._ then it's likely your **PATH*
 [win_env_path]: https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
 [python_docs]: https://docs.python.org/3/tutorial/venv.html
 [pmotw]: https://pymotw.com/3/venv/
-[real_python]: https://realpython.com/python-virtual-environments-a-primer/
+[real_python_venv]: https://realpython.com/python-virtual-environments-a-primer/
+[real_python_pip]: https://realpython.com/what-is-pip/
 
