@@ -1,6 +1,9 @@
 ---
 title: "Useful Resources"
 date: "2018-11-17"
+# lastmod is determined from Git info if not set here
+#lastmod: "2018-11-17"
+include_lastmod: true
 header_image: "/img/python-bookshelf.jpg"
 # preview image used with Slack and Twitter links
 images:
@@ -35,6 +38,7 @@ weight: 20
   * [Free Code Camp](https://www.freecodecamp.org/) - project based courses for learning web technologies
   * [Flexbox Froggy](https://flexboxfroggy.com/) - tutorial for learning CSS flexbox
   * [Grid Garden](https://cssgridgarden.com/) - tutorial for learning CSS grid
+  * [Interneting Is Hard](https://internetingishard.com/) - step-by-step exercises for using HTML, CSS, and JavaScript
 
 # Git and GitHub
   * [Official Git reference](https://git-scm.com/docs)
@@ -48,6 +52,7 @@ weight: 20
   * [GitHub workflow documentation](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/)
   * [O'Reilly Git Pocket Guide](http://shop.oreilly.com/product/0636920024972.do) ([Amazon](https://www.amazon.com/Git-Pocket-Guide-Working-Introduction/dp/1449325866/))
   * [Git Bash Completion](https://github.com/git/git/tree/master/contrib/completion) - Git completions and info in your Bash prompt
+  * [Gitignore.io](https://www.gitignore.io/) - Useful for generating `.gitignore` file contents ([example](https://www.gitignore.io/api/code,python,pycharm))
 
 # Markdown
   * [Intro to Markdown](https://guides.github.com/features/mastering-markdown/)
@@ -79,4 +84,3 @@ weight: 20
   * [CodingBat](https://codingbat.com/python)
   * [HackerRank](https://www.hackerrank.com)
   * [RunCode](https://docs.runcode.ninja/)
-
