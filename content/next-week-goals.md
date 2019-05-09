@@ -2,7 +2,7 @@
 title: "Goals for Next Tuesday"
 #date: "2019-05-02"
 # lastmod is determined from Git info if not set here
-lastmod: "2019-05-02"
+lastmod: "2019-05-09"
 include_date: false
 include_lastmod: true
 header_image: "/img/python-bookshelf.jpg"
@@ -19,14 +19,14 @@ pinned: true
 weight: 20
 ---
 
-# **Goals for Tuesday the 7th:** #
+# **Goals for Tuesday the 14th:** #
 ---
 <!-- UL -->
-  * Get started on Project 1
+  * Keep working on Project 1
     *  [Project 1 details](https://docs.cs50.net/web/2018/x/projects/1/project1.html)
-  * Watch Lecture 3
+  * If you haven't yet, watch up to Lecture 3
     * [Lecture 3 on youtube](https://www.youtube.com/watch?v=Eda-NmcE5mQ)
-  * Think about ways to contribute to pythonpirates.org by adding content, links, or resources
+  * Ask questions on Slack about Flask or any other challenges that arise
 
 ---
 #### Topics we are learning about right now in this Meetup: Git, Git Bash, GitHub, Flask, HTML, CSS, Sass, Python, Web Apps, Bootstrap, Hugo, SQL... ####

@@ -38,6 +38,7 @@ weight: 20
   * [Free Code Camp](https://www.freecodecamp.org/) - project based courses for learning web technologies
   * [Flexbox Froggy](https://flexboxfroggy.com/) - tutorial for learning CSS flexbox
   * [Grid Garden](https://cssgridgarden.com/) - tutorial for learning CSS grid
+  * [Interneting Is Hard](https://internetingishard.com/) - beginner-friendly walkthroughs for HTML and CSS
 
 # Git and GitHub
   * [Official Git reference](https://git-scm.com/docs)
@@ -83,4 +84,3 @@ weight: 20
   * [CodingBat](https://codingbat.com/python)
   * [HackerRank](https://www.hackerrank.com)
   * [RunCode](https://docs.runcode.ninja/)
-
