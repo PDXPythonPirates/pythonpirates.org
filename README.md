@@ -77,6 +77,31 @@ When you are ready to publish the page, update the value `draft: false`, or dele
 > The `draft` attribute is the first thing to check if a page isn't showing up on the website that you expect.
 
 
+# Updating Your Clone
+
+Your cloned copy can easily fall out of date when regular updates are being merged into the main website repository.
+Because of this possibility, it's a good practice to update your local copy of `master` before creating a new branch to make edits.
+
+Check if you already have a remote defined for `upstream`:
+
+    git remote -v
+
+If `upstream` isn't in the list of remotes then add it:
+
+    git add remote upstream https://github.com/PDXPythonPirates/pythonpirates.org.git
+
+Update your local `master` so it's caught up with the upstream master:
+
+    git checkout master
+    git pull upstream master
+
+Now you can create your branch and make your killer contribution:
+
+    git checkout -b my-awesome-website-contribution
+
+
+
+
 [pythonpirates]: https://www.pythonpirates.org
 [markdown]: https://guides.github.com/features/mastering-markdown/
 [git_submodules]: https://blog.github.com/2016-02-01-working-with-submodules/#joining-a-project-using-submodules
