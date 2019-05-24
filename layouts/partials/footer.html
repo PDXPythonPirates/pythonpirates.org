@@ -14,13 +14,13 @@
 
         </p>
     </div>
-    <div class="content has-text-centered has-text-grey-light is-size-7">
+    <div class="content siteinfo has-text-centered is-size-7">
         <p>
             <em>Site updated {{ now.Format "2006-01-02" }}</em>
             {{ if .IsPage }}
             &middot;
-            <em>Page updated  {{ .Page.GitInfo.AuthorDate.Format "2006-01-02" }} - 
-              <a class="has-text-grey-light" href="{{.Site.Params.github_version_url}}{{.Page.GitInfo.Hash}}">{{.Page.GitInfo.AbbreviatedHash}}</a>
+            <em>Page updated  {{ .Page.GitInfo.AuthorDate.Format "2006-01-02" }} &middot;
+              <a href="{{.Site.Params.github_version_url}}{{.Page.GitInfo.Hash}}">{{.Page.GitInfo.AbbreviatedHash}}</a>
             </em>
             {{ end }}
         </p>

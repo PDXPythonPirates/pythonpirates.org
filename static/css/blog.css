@@ -9,7 +9,10 @@ html,body {
     text-shadow: 2px 2px 4px #222222;
     }
 .mysocial { color: hsl(0, 0%, 100%);}
-.mysocial:hover { color: hsl(0, 0%, 71%) }
+.mysocial:hover { color: hsl(0, 0%, 71%); }
 .postsocial { color: #aaaaaa;}
-.postsocial:hover { color: #222222 }
+.postsocial:hover { color: #222222; }
+.siteinfo { color: #b5b5b5; }
+.siteinfo a { color: #b5b5b5; }
+.siteinfo a:hover { color: #fff; }
 .danger { background:rgba(200, 0, 0, 0.2);}
