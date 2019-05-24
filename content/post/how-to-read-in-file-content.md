@@ -1,7 +1,7 @@
 ---
 title: "How to Open and Read Files"
 description: "A short tutorial that shows how to open and read text files using Python"
-date: "2018-12-04"
+#date: "2018-12-04"
 lastmod: "2018-12-04"
 #author: "Matt Phillips"
 #author_github: "imattman"
