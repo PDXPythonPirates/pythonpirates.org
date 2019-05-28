@@ -39,6 +39,8 @@ weight: 20
   * [Flexbox Froggy](https://flexboxfroggy.com/) - tutorial for learning CSS flexbox
   * [Grid Garden](https://cssgridgarden.com/) - tutorial for learning CSS grid
   * [Interneting Is Hard](https://internetingishard.com/) - beginner-friendly walkthroughs for HTML and CSS
+  * [What the Flexbox](https://flexbox.io/) - free course on Flexbox by Wes Bos
+  * [CSS Grid](https://cssgrid.io/) - free course on CSS Grid by Wes Bos
 
 # Git and GitHub
   * [Official Git reference](https://git-scm.com/docs)
