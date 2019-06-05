@@ -1,8 +1,7 @@
 ---
 title: "Goals for Next Tuesday"
-#date: "2019-06-04"
 # lastmod is determined from Git info if not set here
-lastmod: "2019-05-29"
+lastmod: "2019-06-05"
 include_date: false
 include_lastmod: true
 header_image: "/img/python-bookshelf.jpg"
