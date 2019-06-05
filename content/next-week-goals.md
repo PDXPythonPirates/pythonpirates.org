@@ -19,17 +19,17 @@ pinned: true
 weight: 20
 ---
 
-# **Goals for Tuesday the 4th:** #
----
-<!-- UL -->
-  * Work on [Aaron's SQL Challenge](https://github.com/PDXPythonPirates/SQL-Challange)
-  * Keep working on Project 1...
-    *  [Project 1 details](https://docs.cs50.net/web/2018/x/projects/1/project1.html)
-  * Watch Lecture 4
-    * [Lecture 4 on youtube](https://www.youtube.com/watch?v=24Kf3v7kZyE)
+# Goals for June 11th
+
+We're switching gears, putting CS50W on the back burner for the next few weeks, and instead focusing on a group review of the **Flask Mega Tutorial** by Miguel Grinberg.  
+
+  * Work through the first three parts of the tutorial
+    * [part 1: hello world](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+    * [part 2: templates](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ii-templates)
+    * [part 3: web forms](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iii-web-forms)
 
 ---
-#### Topics we are learning about right now in this Meetup: Git, Git Bash, GitHub, Flask, HTML, CSS, Sass, Python, Web Apps, Bootstrap, Hugo, SQL, PostgreSQL, Jinja2, ORMs, APIs... ####
+#### Topics we are learning about right now in this Meetup: Git, Git Bash, GitHub, Flask, HTML, CSS, Sass, Python, Web Apps, Bootstrap, Hugo, SQL, PostgreSQL, Jinja2, ORMs, APIs...
 \
 \
 \
@@ -38,4 +38,4 @@ weight: 20
 \
 \
 \
-  ![Python Logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
+![Python Logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
