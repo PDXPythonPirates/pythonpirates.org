@@ -28,9 +28,18 @@ weight: 20
   * [VisuAlgo](https://visualgo.net/en) - Animated visuals of data structures and algorithms
   * [Python Module of the Week](https://pymotw.com/3/) - Series of articles to demonstrate how to use the modules of the Python 3 standard library
   * [Real Python](https://realpython.com/) - Loads and loads of helpful articles, tutorials, and more
-  * [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) - a comprehensive introduction to creating Flask projects
   * [PythonAnywhere](https://www.pythonanywhere.com/) - Run python programs in a cloud instance
   * [Python Articles](https://medium.freecodecamp.org/tagged/python ) - Python stories worth reading about programming and technology from our open source community.
+
+# Web Application Tools
+  * [Flask](http://flask.pocoo.org/) - Official project site with documentation and tutorial
+  * [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) - a comprehensive introduction to creating Flask projects
+  * [Flask-RESTPlus](https://flask-restplus.readthedocs.io/en/stable/) - Chris' favorite library for building REST APIs with Flask
+  * [Jinja Project site](http://jinja.pocoo.org/) - Jinja documentation
+  * [SQLAlchemy](https://www.sqlalchemy.org/) - SQL Toolkit and Object Relational Mapper
+  * [Django Web Framework](https://www.djangoproject.com/) - a very popular and powerful framework with "everything in the box"
+  * [Pyramid Web Framework](https://trypyramid.com/) - a "goldilocks" framework that falls between the micro and mega frameworks
+  * [Postman HTTP client](https://www.getpostman.com/) - API client tool with a load of features for transmitting payloads over HTTP
 
 # HTML, CSS, and JavaScript
   * [MDN Web docs](https://developer.mozilla.org/en-US/docs/Web) - Mozilla Developer Network guides
