@@ -22,9 +22,7 @@ Python applications often require different versions of libraries that can confl
 Learning to use virtual environments can seem like a hassle and a bit cumbersome at first.  In the long run, regular use of virtual environments will become second nature and can save you a lot of pain and frustration.
 
 
-# Quick Start
-
-#### Windows
+# Windows Quick Start
 
   1. Use `where` to verify **python** is in your **%PATH%**.  
   This should list one or more full paths to **python.exe**.  
@@ -60,7 +58,7 @@ Learning to use virtual environments can seem like a hassle and a bit cumbersome
     **Note:** the name of the file must be `.gitignore`
 
 
-#### Mac / Linux
+# Mac & Linux Quick Start
 
   1. Use `which` to verify **python** is in your **$PATH**.  
   This should list the full path to a **python3** binary.  
