@@ -1,6 +1,7 @@
 {{ define "main" }}
 
-{{ $show_pub_date := or (eq .Type "post") (.Page.Params.include_date) }}
+{{ $default_show_pub := and (eq .Type "post") (not (isset .Page.Params "include_date" )) }}
+{{ $show_pub_date := or ($default_show_pub) (.Page.Params.include_date) }}
 {{ $page_modifed := (ne (.Date.Format "2006-01-02") (.Lastmod.Format "2006-01-02")) }}
 {{ $show_lastmod := or (.Page.Params.include_lastmod) (and ($show_pub_date) ($page_modifed)) }}
 

@@ -2,7 +2,9 @@
 title: "How to Set Up a Virtual Environment"
 description: "A short tutorial for configuring a virtual environment in your Python project."
 #date: "2019-05-03"
-lastmod: "2019-05-05"
+lastmod: "2019-06-13"
+include_date: false
+include_lastmod: true
 #author: "Matt Phillips"
 #author_github: "imattman"
 header_image: "/img/keyboard-closeup.jpg"
@@ -24,11 +26,12 @@ Learning to use virtual environments can seem like a hassle and a bit cumbersome
 
 # Windows Quick Start
 
-  1. Use `where` to verify **python** is in your **%PATH%**.  
-  This should list one or more full paths to **python.exe**.  
-    ```
-    where python
-    ```
+These instructions use the Windows command line and assume you already have [Python 3.3+][python_download] installed and included in the PATH.
+
+  1. Launch a command terminal:  
+    Press `Win-R` (windows key + `r`) to bring up the Run menu.  
+    Type `cmd` and press Enter.
+
   2. Change to your project directory.  
     ```
     cd path\to\my-project
@@ -60,11 +63,12 @@ Learning to use virtual environments can seem like a hassle and a bit cumbersome
 
 # Mac & Linux Quick Start
 
-  1. Use `which` to verify **python** is in your **$PATH**.  
-  This should list the full path to a **python3** binary.  
-    ```
-    which python3
-    ```
+These instructions use the Unix command line and assume you already have [Python 3.3+][python_download] installed and included in the PATH.
+
+  1. Launch a terminal:  
+    - Mac: Press `CMD-Space` to bring up Spotlight and enter `terminal`
+    - Linux: press `CTL-ALT-T` to launch a terminal
+
   2. Change to your project directory.  
     ```
     cd path/to/my-project
@@ -98,30 +102,55 @@ Learning to use virtual environments can seem like a hassle and a bit cumbersome
 
 # General Tips
 
-  * **Activate** the virtual environment (_step 4. above_) anytime you start a new command shell, otherwise the packages installed in that environment won't be found.
-  * The `venv` directory contains information specific to your computer and shouldn't be checked into Git.  This is the main reason for the explicit step to add a `.gitignore` file... and it's a good practice :sunglasses:
+  * Always **activate** the virtual environment (step 4) anytime you start a new command terminal, otherwise the packages installed in that environment won't be found.
+  * Use the `deactivate` command when finished with a project and you want to continue using the same terminal (e.g. work on a different python project with its own virtual environment).
+  * The `venv` directory contains information specific to your computer and shouldn't be checked into Git.  This is one of the main reasons for the explicit step to add a `.gitignore` file... and it's a good practice :sunglasses:
   * GitHub offers an option to "Add `.gitignore`" when you create a new project.  
-    Select "Python" in the list for a shortcut on _step 5._
+    Select "Python" in the list for a shortcut on step 5.
   * [Pypi.org](https://pypi.org) is where `pip` finds the packages it downloads.  The PyPi website offers search options for when you don't know exactly which package to use.
 
 # Troubleshooting
 
-If python isn't found using the check in _step 1._ then it's likely your **PATH** needs to be updated.
+If python isn't found in **step 3** then it's possible your **PATH** needs to be updated.
 
-  * Windows users will need to find where `python.exe` resides on their file system and add that directory to their PATH within the [control panel][win_env_path].
-  * Mac / Linux users who installed python3 using **homebrew** should verify `/usr/local/bin` is in their PATH  
-  ```
-  echo $PATH
-  ```  
-  Update the PATH if absent (consider adding this to your `.bashrc`)  
-  ```
-  export PATH="/usr/local/bin:$PATH"
-  ```  
-  _If that still doesn't work, reach out in Slack._
+## Windows
+
+Use `where` to verify **python** is in your **%PATH%**.  
+This should list one or more full paths to **python.exe**.  
+
+```
+where python
+```
+
+If a path to python isn't listed then you will need to locate where `python.exe` resides on your file system and add that directory to your PATH within the [control panel][win_env_path].
+
+## Mac / Linux
+
+Use `which` to verify **python** is in your **$PATH**.  
+This should list the full path to a **python3** binary.
+
+```
+which python3
+```
+
+Mac users who installed python3 using **homebrew** should verify `/usr/local/bin` is in their PATH  
+
+```
+echo $PATH
+```  
+
+Update the PATH if absent (consider adding this to your `~/.bashrc`)  
+
+```
+export PATH="/usr/local/bin:$PATH"
+```  
+
+_If that still doesn't work, reach out in Slack._
 
 
 # Additional Resources
 
+  * [Download the latest Python distribution][python_download]
   * [Python documentation][python_docs] on the `venv` library and virtual environments
   * [Python Module of the Week][pmotw] article on virtual environments
   * [Real Python virtual environment][real_python_venv] primer
@@ -129,6 +158,7 @@ If python isn't found using the check in _step 1._ then it's likely your **PATH*
 
 
 
+[python_download]: https://www.python.org/downloads/
 [gitignore]: https://www.gitignore.io/
 [gitignore_example]: https://www.gitignore.io/api/code,python,pycharm
 [win_env_path]: https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
