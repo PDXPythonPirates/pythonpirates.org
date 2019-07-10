@@ -1,7 +1,7 @@
 ---
 title: "Goals for Next Tuesday"
 # lastmod is determined from Git info if not set here
-lastmod: "2019-07-02"
+lastmod: "2019-07-10"
 include_date: false
 include_lastmod: true
 header_image: "/img/python-bookshelf.jpg"
@@ -18,13 +18,13 @@ pinned: true
 weight: 20
 ---
 
-# Goals for July 9th
+# Goals for July 16th
 
 Keep working on the **Flask Mega Tutorial** by Miguel Grinberg!
 
-  * Work through Chapters 6 and 7 of the tutorial:
-    * [Part 6: Profile Page and Avatars](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vi-profile-page-and-avatars)
-    * [Part 7: Error Handling](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vii-error-handling)
+  * Work through Chapters 8 and 9 of the tutorial:
+    * [Part 8: Followers](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-viii-followers)
+    * [Part 9: Pagination](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ix-pagination)
 
   * Consider what would be most helpful for you for the future of the meetup. Do you want to finish the Mega-Tutorial? Go back to the Harvard course? Take a break? Discuss on [Slack](https://pythonpirates.slack.com/messages/CKAKZEUUD/convo/CCK9B5HB5-1558272354.047800/)!
 
