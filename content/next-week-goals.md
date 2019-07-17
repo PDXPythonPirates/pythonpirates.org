@@ -1,7 +1,7 @@
 ---
 title: "Goals for Next Tuesday"
 # lastmod is determined from Git info if not set here
-lastmod: "2019-07-10"
+lastmod: "2019-07-16"
 include_date: false
 include_lastmod: true
 header_image: "/img/python-bookshelf.jpg"
@@ -18,15 +18,15 @@ pinned: true
 weight: 20
 ---
 
-# Goals for July 16th
+# Goals for July 23rd
 
 Keep working on the **Flask Mega Tutorial** by Miguel Grinberg!
 
-  * Work through Chapters 8 and 9 of the tutorial:
-    * [Part 8: Followers](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-viii-followers)
-    * [Part 9: Pagination](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ix-pagination)
+  * Try to finish up through Chapter 10 of the tutorial:
 
-  * Consider what would be most helpful for you for the future of the meetup. Do you want to finish the Mega-Tutorial? Go back to the Harvard course? Take a break? Discuss on [Slack](https://pythonpirates.slack.com/messages/CKAKZEUUD/convo/CCK9B5HB5-1558272354.047800/)!
+    * [Part 10: Email-Support](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-x-email-support)
+
+  * Ask questions on [Slack](https://pythonpirates.slack.com/messages/CKAKZEUUD/convo/CCK9B5HB5-1558272354.047800/) about Chapter 10. Let us know what chapter you are on. Post solutions you're proud of.
 
 ---
 #### Topics we are learning about right now in this Meetup: Git, Git Bash, GitHub, Flask, HTML, CSS, Sass, Python, Web Apps, Bootstrap, Hugo, SQL, PostgreSQL, Jinja2, ORMs, APIs...
