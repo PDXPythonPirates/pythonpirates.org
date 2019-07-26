@@ -1,7 +1,7 @@
 ---
 title: "Goals for Next Tuesday"
 # lastmod is determined from Git info if not set here
-lastmod: "2019-07-16"
+lastmod: "2019-07-26"
 include_date: false
 include_lastmod: true
 header_image: "/img/python-bookshelf.jpg"
@@ -18,7 +18,7 @@ pinned: true
 weight: 20
 ---
 
-# Goals for July 23rd
+# Goals for July 30th
 
 Keep working on the **Flask Mega Tutorial** by Miguel Grinberg!
 
