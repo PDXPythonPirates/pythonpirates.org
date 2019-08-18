@@ -16,6 +16,7 @@ aliases:
 menu: "main"
 pinned: true
 weight: 20
+draft: true
 ---
 
 # Goals for July 30th
