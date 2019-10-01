@@ -13,6 +13,7 @@ include_toc: false
 tags: ["goals", "course", "deadlines"]
 aliases:
 - "/goals"
+- "/next"
 menu: "main"
 pinned: true
 weight: 20
