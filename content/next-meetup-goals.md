@@ -14,6 +14,7 @@ tags: ["goals", "course", "deadlines"]
 aliases:
 - "/goals"
 - "/next"
+- "/next-week-goals"
 menu: "main"
 pinned: true
 weight: 20
