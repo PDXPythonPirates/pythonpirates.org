@@ -16,9 +16,14 @@ There are a few steps you will need to take in order to participate with the gro
 
   1. If you haven't already done so, sign up with our {{< meetuplink "Meetup group" >}}
   2. Join our Slack group: {{< slackjoinrequest >}}  
-    _Note: the auto-invitation can be flaky; if the above doesn't work you can ask any member to send you an invitation at the next Meetup._
-  3. Sign up for an account on [Edx.org](https://edx.org/).  
-    You can also register for the current course: {{< courselink >}}
+    _Note: the auto-invitation can be flaky; if the above doesn't work you can ask any member to send you an invitation at the next meetup._
+  3. Sign up for an account with your local library so you can access Lynda.com.  
+     Search for the **learning path** _Become a Python Developer_.  
+       We are currently studying: {{< courselink >}}
+
+    * [Multnomah county library](https://multcolib.org/resource/lyndacom)
+    * [Washington county library](https://www.wccls.org/research/lyndacom)
+    * [Vancouver regional library](http://www.fvrl.org/resource/lyndacom)  
   4. Sign up for an account on [GitHub](https://www.github.com).
 
 
