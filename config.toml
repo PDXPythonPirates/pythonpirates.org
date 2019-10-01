@@ -25,8 +25,8 @@ summaryLength = 40
 
 
 [params]
-    course_title = "CS50 Web Programming with Python and JavaScript"
-    course_url = "https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript"
+    course_title = "Programming Foundations: Algorithms"
+    course_url = "https://www.lynda.com/learning-paths/Developer/become-a-python-developer"
 
     header_image = "/img/laptop-python-books.jpg"
 

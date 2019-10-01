@@ -17,7 +17,7 @@
     <div class="content siteinfo has-text-centered is-size-7">
         <p>
             <em>Site updated {{ now.Format "2006-01-02" }}</em>
-            {{ if .IsPage }}
+            {{ if (and .IsPage .Page.GitInfo ) }}
             &middot;
             <em>Page updated  {{ .Page.GitInfo.AuthorDate.Format "2006-01-02" }} &middot;
               <a href="{{.Site.Params.github_version_url}}{{.Page.GitInfo.Hash}}">{{.Page.GitInfo.AbbreviatedHash}}</a>

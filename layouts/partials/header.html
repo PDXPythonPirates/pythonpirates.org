@@ -2,8 +2,9 @@
 <html lang="{{ $.Site.LanguageCode | default "en" }}">
 <head>
     {{ (printf `<!--  Site published:  %s  -->` time.Now) | safeHTML }}
-    {{ if .IsPage -}}
-    {{ (printf `<!--  Page updated:    %s  -->` .GitInfo.AuthorDate) | safeHTML }}
+    {{ if (and .IsPage .GitInfo) -}}
+    {{ $gitInfo := .GitInfo.AuthorDate | default "no git info" }}
+    {{ (printf `<!--  Page updated:    %s  -->` $gitInfo) | safeHTML }}
     {{ end }}
     <title>{{ .Site.Title }} {{ with .Title }} | {{ . }}{{ end }}</title>
     {{- partial "header-meta.html" . -}}
@@ -30,18 +31,18 @@
             {{ if and (.Site.Params.display_urgent | default false) (isset .Site.Params "urgent_nav_title") }}
             <a class="navbar-item" href="{{ .Site.Params.urgent_url}}">{{ .Site.Params.urgent_nav_title }}</a>
             {{end}}
-        
+
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
             </a>
-        </div>        
-        
+        </div>
+
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
             </div>
-            
+
             <div class="navbar-end">
                 <a class="navbar-item" href="{{ "/resources" | relURL }}">Resources</a>
                 <a class="navbar-item" href="{{ "/post" | relURL }}">Posts</a>
