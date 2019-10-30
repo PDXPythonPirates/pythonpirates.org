@@ -25,7 +25,7 @@ summaryLength = 40
 
 
 [params]
-    course_title = "Programming Foundations: Algorithms"
+    course_title = "Learning Python (course 3)"
     course_url = "https://www.lynda.com/learning-paths/Developer/become-a-python-developer"
 
     header_image = "/img/laptop-python-books.jpg"
