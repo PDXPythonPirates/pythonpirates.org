@@ -2,7 +2,7 @@
 title: "How to Set Up a Virtual Environment"
 description: "A short tutorial for configuring a virtual environment in your Python project."
 #date: "2019-05-03"
-lastmod: "2019-06-13"
+lastmod: "2019-11-09"
 include_date: false
 include_lastmod: true
 #author: "Matt Phillips"
@@ -160,7 +160,7 @@ _If that still doesn't work, reach out in Slack._
 
 [python_download]: https://www.python.org/downloads/
 [gitignore]: https://www.gitignore.io/
-[gitignore_example]: https://www.gitignore.io/api/code,python,pycharm
+[gitignore_example]: https://www.gitignore.io/api/code,python,pycharm,virtualenv
 [win_env_path]: https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
 [python_docs]: https://docs.python.org/3/tutorial/venv.html
 [pmotw]: https://pymotw.com/3/venv/
