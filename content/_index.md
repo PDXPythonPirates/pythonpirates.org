@@ -14,3 +14,10 @@ Join us as we support each other in our quest to become better Python programmer
 We are currently studying course material from the learning path _Become a Python Developer_ on Lynda.com.
 
 See the [Getting Started page]({{< ref "/start.md" >}}) for information on joining our Meetup and Slack group.
+
+# Website Retiring Soon
+
+This version of the website is retiring soon so we can make way for the new and improved **pythonpirates.org 2.0**.  
+We would love for you to come help us create it!
+
+Join our `#website` channel in Slack to find out more.
