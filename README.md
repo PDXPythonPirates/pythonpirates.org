@@ -17,7 +17,7 @@ The content is written in [Markdown][markdown] and rendered to static HTML using
 
 If you missed the submodules in the initial clone you can update using the following:
 
-    git submodule update --init --recurse
+    git submodule update --init --recursive
 
 
 ## Verify Changes Locally
