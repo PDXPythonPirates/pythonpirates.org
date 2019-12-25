@@ -12,7 +12,7 @@
 #
 baseurl = "https://www.pythonpirates.org"
 title = "Portland Python Pirates"
-copyright = "Copyright © 2018–2019 Portland Python Pirates"
+copyright = "Copyright © 2018–2020 Portland Python Pirates"
 theme = "jeffprod"
 googleAnalytics = "UA-131409351-1"
 enableGitInfo = true
