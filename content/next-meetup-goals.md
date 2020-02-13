@@ -1,7 +1,7 @@
 ---
 title: "Goals for the Next Meetup"
 # lastmod is determined from Git info if not set here
-#lastmod: "2019-12-08"
+#lastmod: "2020-02-12"
 include_date: false
 include_lastmod: true
 header_image: "/img/python-bookshelf.jpg"
@@ -18,18 +18,18 @@ aliases:
 menu: "main"
 pinned: true
 weight: 20
-draft: true
+draft: false
 ---
 
-# Goals for Dec. 17
+# Goals for Feb. 25
 
 We're progressing through a series of Python courses on [Lynda.com](https://www.lynda.com/learning-paths/Developer/become-a-python-developer).  
 Learning path: _Become a Python Developer_
 
 Our focus on Python fundamentals continues (along with taking the courses a bit out of order).
 
-  * Finish **course 4** in the series: _Python Essential Training_ 
-  * You can skip the final section on databases; we will cover that topic at a later time.
+  * Watch **course 2** in the series: _Programming Foundations: Object-Oriented Design_
+  * You can skip **Section 5: Class Diagrams**
   * Don't be shy about asking questions in Slack: {{< slackjoinrequest >}}
 
 Access to Lynda.com is available for free through local library memberships:
