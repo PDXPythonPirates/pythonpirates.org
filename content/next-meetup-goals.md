@@ -18,7 +18,7 @@ aliases:
 menu: "main"
 pinned: true
 weight: 20
-draft: false
+draft: true
 ---
 
 # Goals for Feb. 25
