@@ -5,6 +5,8 @@ header_image: "/img/Portland_Night_panorama.jpg"
 description: "New member onboarding instructions"
 menu: "main"
 tags: ["onboarding"]
+aliases:
+- "/join"
 pinned: true
 weight: 10
 ---
