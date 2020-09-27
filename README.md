@@ -6,6 +6,8 @@ The content is written in [Markdown][markdown] and rendered to static HTML using
 
 ## How to Contribute: Overview
 
+**The primary branch of this repository is named `main`.**
+
   1. [Fork][github_fork] this [repo][website_repo] to your GitHub account.
   1. [Clone][github_clone] to your local system and make content changes (see note on `git submodules` below)
   1. Run [Hugo][hugo_site] on your local system to verify your changes.
@@ -80,7 +82,7 @@ When you are ready to publish the page, update the value `draft: false`, or dele
 # Updating Your Clone
 
 Your cloned copy can easily fall out of date when regular updates are being merged into the main website repository.
-Because of this possibility, it's a good practice to update your local copy of `master` before creating a new branch to make edits.
+Because of this possibility, it's a good practice to update your local copy of `main` before creating a new branch to make edits.
 
 Check if you already have a remote defined for `upstream`:
 
@@ -90,10 +92,10 @@ If `upstream` isn't in the list of remotes then add it:
 
     git add remote upstream https://github.com/PDXPythonPirates/pythonpirates.org.git
 
-Update your local `master` so it's caught up with the upstream master:
+Update your local `main` so it's caught up with the upstream main:
 
-    git checkout master
-    git pull upstream master
+    git checkout main
+    git pull upstream main
 
 Now you can create your branch and make your killer contribution:
 

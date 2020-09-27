@@ -16,9 +16,6 @@ pinned: true
 weight: 20
 ---
 
-# Course
-  * We are currently studying the material from {{< courselink >}}.
-
 # Python
   * [Python Tutor](http://www.pythontutor.com/) - a fantastic site for visualizing code execution and simple collaborations
   * [Python 3 standard library](https://docs.python.org/3/library/index.html) _keep this under your pillow_
