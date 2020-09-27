@@ -1,7 +1,7 @@
 Website Management
 ==================
 
-This document provides a summary overview of how the [Python Pirates website][pirates] is built, deployed, and updated.
+This document provides an overview of how the [Python Pirates website][pirates] is built, deployed, and updated.
 
 Information on how to develop the website using [Hugo][hugo] can be found in the [README.md][readme].
 
@@ -32,14 +32,12 @@ Authored content is written in [Markdown][markdown], a simplified mark up langua
 Changes to the main [Github repo][this_repo] trigger automatic updates to Netlify:
 
   * Pull Requests trigger the generation of a _preview deployment_ under a unique netlify URL.  
-  This URL is presented as `deploy-preview` in the pull request details, available for visual inspection before merge.  
-  [Example PR](https://github.com/PDXPythonPirates/pythonpirates.org/pull/126)  
-  [Example deploy-preview](https://deploy-preview-126--pythonpirates.netlify.com/)
-  * Any change to the GitHub `master` branch (e.g. merge a pull request) triggers live site deployment.  
+  This URL is presented as `deploy-preview` in the pull request details.  Visual inspection of a the preview is recommended before merging a pull request.
+  * Any change to the `main` branch (e.g. merging a pull request) triggers live site deployment.  
   The site generation usually completes a few seconds after the git merge.  
   Live site deployment is handled automatically by Netlify.
   
-Note: this triggered deployment process only applies to the main Github repository and not any forks outside our Github organization.
+Note: this triggered deployment process only applies to the organization Github repository and not any forks in other Github accounts.
 
 Netlify manages and automatically renews website TLS certificates using the free service [Let's Encrypt][lets_encrypt].  The one requirement is we control rights to the domain, which currently expire in December 2020.
 
