@@ -1,6 +1,9 @@
-# Portland Python Pirates Website
+# Portland Python Pirates Website (Retired)
 
-This is the home for the content files used to create the [PDX Python Pirates][pythonpirates] website.
+### Note: this git repo is retired and no longer manages the content for the python pirates website.
+ 
+
+This is the home for the content files used to create the old [PDX Python Pirates][pythonpirates] website, now retired.
 
 The content is written in [Markdown][markdown] and rendered to static HTML using [Hugo][hugo_site], a static site generation tool.
 
@@ -104,7 +107,7 @@ Now you can create your branch and make your killer contribution:
 
 
 
-[pythonpirates]: https://www.pythonpirates.org
+[pythonpirates]: https://pythonpirates.netlify.app
 [markdown]: https://guides.github.com/features/mastering-markdown/
 [git_submodules]: https://blog.github.com/2016-02-01-working-with-submodules/#joining-a-project-using-submodules
 [hugo_site]: https://gohugo.io/
